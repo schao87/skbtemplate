@@ -1,0 +1,2675 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.1.2
+3 info using node@v0.10.24
+4 warn package.json skb2@ No description
+5 warn package.json skb2@ No repository field.
+6 warn package.json skb2@ No README data
+7 verbose install where, deps [ '/Users/sunnychao/Documents/_Projects/skb2',
+7 verbose install   [ 'apache-server-configs',
+7 verbose install     'grunt',
+7 verbose install     'grunt-autoprefixer',
+7 verbose install     'grunt-concurrent',
+7 verbose install     'grunt-contrib-clean',
+7 verbose install     'grunt-contrib-concat',
+7 verbose install     'grunt-contrib-connect',
+7 verbose install     'grunt-contrib-copy',
+7 verbose install     'grunt-contrib-cssmin',
+7 verbose install     'grunt-contrib-htmlmin',
+7 verbose install     'grunt-contrib-imagemin',
+7 verbose install     'grunt-contrib-jshint',
+7 verbose install     'grunt-contrib-uglify',
+7 verbose install     'grunt-contrib-watch',
+7 verbose install     'grunt-mocha',
+7 verbose install     'grunt-newer',
+7 verbose install     'grunt-rev',
+7 verbose install     'grunt-svgmin',
+7 verbose install     'grunt-usemin',
+7 verbose install     'grunt-wiredep',
+7 verbose install     'jshint-stylish',
+7 verbose install     'load-grunt-tasks',
+7 verbose install     'time-grunt' ] ]
+8 info preinstall skb2@
+9 silly cache add args [ 'grunt-autoprefixer@^1.0.0', null ]
+10 verbose cache add spec grunt-autoprefixer@^1.0.0
+11 silly cache add parsed spec { raw: 'grunt-autoprefixer@^1.0.0',
+11 silly cache add   scope: null,
+11 silly cache add   name: 'grunt-autoprefixer',
+11 silly cache add   rawSpec: '^1.0.0',
+11 silly cache add   spec: '>=1.0.0 <2.0.0',
+11 silly cache add   type: 'range' }
+12 silly cache add args [ 'grunt-contrib-concat@^0.5.0', null ]
+13 verbose cache add spec grunt-contrib-concat@^0.5.0
+14 silly cache add parsed spec { raw: 'grunt-contrib-concat@^0.5.0',
+14 silly cache add   scope: null,
+14 silly cache add   name: 'grunt-contrib-concat',
+14 silly cache add   rawSpec: '^0.5.0',
+14 silly cache add   spec: '>=0.5.0 <0.6.0',
+14 silly cache add   type: 'range' }
+15 silly cache add args [ 'grunt-concurrent@^0.5.0', null ]
+16 verbose cache add spec grunt-concurrent@^0.5.0
+17 silly cache add parsed spec { raw: 'grunt-concurrent@^0.5.0',
+17 silly cache add   scope: null,
+17 silly cache add   name: 'grunt-concurrent',
+17 silly cache add   rawSpec: '^0.5.0',
+17 silly cache add   spec: '>=0.5.0 <0.6.0',
+17 silly cache add   type: 'range' }
+18 silly cache add args [ 'grunt-contrib-connect@^0.8.0', null ]
+19 verbose cache add spec grunt-contrib-connect@^0.8.0
+20 silly cache add parsed spec { raw: 'grunt-contrib-connect@^0.8.0',
+20 silly cache add   scope: null,
+20 silly cache add   name: 'grunt-contrib-connect',
+20 silly cache add   rawSpec: '^0.8.0',
+20 silly cache add   spec: '>=0.8.0 <0.9.0',
+20 silly cache add   type: 'range' }
+21 silly cache add args [ 'grunt-contrib-clean@^0.6.0', null ]
+22 verbose cache add spec grunt-contrib-clean@^0.6.0
+23 silly cache add parsed spec { raw: 'grunt-contrib-clean@^0.6.0',
+23 silly cache add   scope: null,
+23 silly cache add   name: 'grunt-contrib-clean',
+23 silly cache add   rawSpec: '^0.6.0',
+23 silly cache add   spec: '>=0.6.0 <0.7.0',
+23 silly cache add   type: 'range' }
+24 silly cache add args [ 'grunt-contrib-copy@^0.5.0', null ]
+25 verbose cache add spec grunt-contrib-copy@^0.5.0
+26 silly cache add parsed spec { raw: 'grunt-contrib-copy@^0.5.0',
+26 silly cache add   scope: null,
+26 silly cache add   name: 'grunt-contrib-copy',
+26 silly cache add   rawSpec: '^0.5.0',
+26 silly cache add   spec: '>=0.5.0 <0.6.0',
+26 silly cache add   type: 'range' }
+27 silly cache add args [ 'grunt-contrib-cssmin@^0.10.0', null ]
+28 verbose cache add spec grunt-contrib-cssmin@^0.10.0
+29 silly cache add parsed spec { raw: 'grunt-contrib-cssmin@^0.10.0',
+29 silly cache add   scope: null,
+29 silly cache add   name: 'grunt-contrib-cssmin',
+29 silly cache add   rawSpec: '^0.10.0',
+29 silly cache add   spec: '>=0.10.0 <0.11.0',
+29 silly cache add   type: 'range' }
+30 silly cache add args [ 'grunt-contrib-htmlmin@^0.3.0', null ]
+31 verbose cache add spec grunt-contrib-htmlmin@^0.3.0
+32 silly cache add parsed spec { raw: 'grunt-contrib-htmlmin@^0.3.0',
+32 silly cache add   scope: null,
+32 silly cache add   name: 'grunt-contrib-htmlmin',
+32 silly cache add   rawSpec: '^0.3.0',
+32 silly cache add   spec: '>=0.3.0 <0.4.0',
+32 silly cache add   type: 'range' }
+33 silly cache add args [ 'grunt-contrib-imagemin@^0.8.0', null ]
+34 verbose cache add spec grunt-contrib-imagemin@^0.8.0
+35 silly cache add parsed spec { raw: 'grunt-contrib-imagemin@^0.8.0',
+35 silly cache add   scope: null,
+35 silly cache add   name: 'grunt-contrib-imagemin',
+35 silly cache add   rawSpec: '^0.8.0',
+35 silly cache add   spec: '>=0.8.0 <0.9.0',
+35 silly cache add   type: 'range' }
+36 silly cache add args [ 'grunt-contrib-jshint@^0.10.0', null ]
+37 verbose cache add spec grunt-contrib-jshint@^0.10.0
+38 silly cache add parsed spec { raw: 'grunt-contrib-jshint@^0.10.0',
+38 silly cache add   scope: null,
+38 silly cache add   name: 'grunt-contrib-jshint',
+38 silly cache add   rawSpec: '^0.10.0',
+38 silly cache add   spec: '>=0.10.0 <0.11.0',
+38 silly cache add   type: 'range' }
+39 silly addNonLocal parsed spec { raw: 'grunt-autoprefixer@^1.0.0',
+39 silly addNonLocal   scope: null,
+39 silly addNonLocal   name: 'grunt-autoprefixer',
+39 silly addNonLocal   rawSpec: '^1.0.0',
+39 silly addNonLocal   spec: '>=1.0.0 <2.0.0',
+39 silly addNonLocal   type: 'range' }
+40 verbose addNamed grunt-autoprefixer@>=1.0.0 <2.0.0
+41 silly addNamed semver.valid null
+42 silly addNamed semver.validRange >=1.0.0 <2.0.0
+43 silly addNameRange { name: 'grunt-autoprefixer',
+43 silly addNameRange   range: '>=1.0.0 <2.0.0',
+43 silly addNameRange   hasData: false }
+44 verbose mapToRegistry name grunt-autoprefixer
+45 verbose mapToRegistry uri https://registry.npmjs.org/grunt-autoprefixer
+46 silly addNonLocal parsed spec { raw: 'grunt-contrib-concat@^0.5.0',
+46 silly addNonLocal   scope: null,
+46 silly addNonLocal   name: 'grunt-contrib-concat',
+46 silly addNonLocal   rawSpec: '^0.5.0',
+46 silly addNonLocal   spec: '>=0.5.0 <0.6.0',
+46 silly addNonLocal   type: 'range' }
+47 verbose addNamed grunt-contrib-concat@>=0.5.0 <0.6.0
+48 silly addNamed semver.valid null
+49 silly addNamed semver.validRange >=0.5.0 <0.6.0
+50 silly addNameRange { name: 'grunt-contrib-concat',
+50 silly addNameRange   range: '>=0.5.0 <0.6.0',
+50 silly addNameRange   hasData: false }
+51 verbose mapToRegistry name grunt-contrib-concat
+52 verbose mapToRegistry uri https://registry.npmjs.org/grunt-contrib-concat
+53 silly addNonLocal parsed spec { raw: 'grunt-concurrent@^0.5.0',
+53 silly addNonLocal   scope: null,
+53 silly addNonLocal   name: 'grunt-concurrent',
+53 silly addNonLocal   rawSpec: '^0.5.0',
+53 silly addNonLocal   spec: '>=0.5.0 <0.6.0',
+53 silly addNonLocal   type: 'range' }
+54 verbose addNamed grunt-concurrent@>=0.5.0 <0.6.0
+55 silly addNamed semver.valid null
+56 silly addNamed semver.validRange >=0.5.0 <0.6.0
+57 silly addNameRange { name: 'grunt-concurrent',
+57 silly addNameRange   range: '>=0.5.0 <0.6.0',
+57 silly addNameRange   hasData: false }
+58 verbose mapToRegistry name grunt-concurrent
+59 verbose mapToRegistry uri https://registry.npmjs.org/grunt-concurrent
+60 silly addNonLocal parsed spec { raw: 'grunt-contrib-connect@^0.8.0',
+60 silly addNonLocal   scope: null,
+60 silly addNonLocal   name: 'grunt-contrib-connect',
+60 silly addNonLocal   rawSpec: '^0.8.0',
+60 silly addNonLocal   spec: '>=0.8.0 <0.9.0',
+60 silly addNonLocal   type: 'range' }
+61 verbose addNamed grunt-contrib-connect@>=0.8.0 <0.9.0
+62 silly addNamed semver.valid null
+63 silly addNamed semver.validRange >=0.8.0 <0.9.0
+64 silly addNameRange { name: 'grunt-contrib-connect',
+64 silly addNameRange   range: '>=0.8.0 <0.9.0',
+64 silly addNameRange   hasData: false }
+65 verbose mapToRegistry name grunt-contrib-connect
+66 verbose mapToRegistry uri https://registry.npmjs.org/grunt-contrib-connect
+67 silly addNonLocal parsed spec { raw: 'grunt-contrib-clean@^0.6.0',
+67 silly addNonLocal   scope: null,
+67 silly addNonLocal   name: 'grunt-contrib-clean',
+67 silly addNonLocal   rawSpec: '^0.6.0',
+67 silly addNonLocal   spec: '>=0.6.0 <0.7.0',
+67 silly addNonLocal   type: 'range' }
+68 verbose addNamed grunt-contrib-clean@>=0.6.0 <0.7.0
+69 silly addNamed semver.valid null
+70 silly addNamed semver.validRange >=0.6.0 <0.7.0
+71 silly addNameRange { name: 'grunt-contrib-clean',
+71 silly addNameRange   range: '>=0.6.0 <0.7.0',
+71 silly addNameRange   hasData: false }
+72 verbose mapToRegistry name grunt-contrib-clean
+73 verbose mapToRegistry uri https://registry.npmjs.org/grunt-contrib-clean
+74 silly addNonLocal parsed spec { raw: 'grunt-contrib-copy@^0.5.0',
+74 silly addNonLocal   scope: null,
+74 silly addNonLocal   name: 'grunt-contrib-copy',
+74 silly addNonLocal   rawSpec: '^0.5.0',
+74 silly addNonLocal   spec: '>=0.5.0 <0.6.0',
+74 silly addNonLocal   type: 'range' }
+75 verbose addNamed grunt-contrib-copy@>=0.5.0 <0.6.0
+76 silly addNamed semver.valid null
+77 silly addNamed semver.validRange >=0.5.0 <0.6.0
+78 silly addNameRange { name: 'grunt-contrib-copy',
+78 silly addNameRange   range: '>=0.5.0 <0.6.0',
+78 silly addNameRange   hasData: false }
+79 verbose mapToRegistry name grunt-contrib-copy
+80 verbose mapToRegistry uri https://registry.npmjs.org/grunt-contrib-copy
+81 silly addNonLocal parsed spec { raw: 'grunt-contrib-cssmin@^0.10.0',
+81 silly addNonLocal   scope: null,
+81 silly addNonLocal   name: 'grunt-contrib-cssmin',
+81 silly addNonLocal   rawSpec: '^0.10.0',
+81 silly addNonLocal   spec: '>=0.10.0 <0.11.0',
+81 silly addNonLocal   type: 'range' }
+82 verbose addNamed grunt-contrib-cssmin@>=0.10.0 <0.11.0
+83 silly addNamed semver.valid null
+84 silly addNamed semver.validRange >=0.10.0 <0.11.0
+85 silly addNameRange { name: 'grunt-contrib-cssmin',
+85 silly addNameRange   range: '>=0.10.0 <0.11.0',
+85 silly addNameRange   hasData: false }
+86 verbose mapToRegistry name grunt-contrib-cssmin
+87 verbose mapToRegistry uri https://registry.npmjs.org/grunt-contrib-cssmin
+88 silly addNonLocal parsed spec { raw: 'grunt-contrib-htmlmin@^0.3.0',
+88 silly addNonLocal   scope: null,
+88 silly addNonLocal   name: 'grunt-contrib-htmlmin',
+88 silly addNonLocal   rawSpec: '^0.3.0',
+88 silly addNonLocal   spec: '>=0.3.0 <0.4.0',
+88 silly addNonLocal   type: 'range' }
+89 verbose addNamed grunt-contrib-htmlmin@>=0.3.0 <0.4.0
+90 silly addNamed semver.valid null
+91 silly addNamed semver.validRange >=0.3.0 <0.4.0
+92 silly addNameRange { name: 'grunt-contrib-htmlmin',
+92 silly addNameRange   range: '>=0.3.0 <0.4.0',
+92 silly addNameRange   hasData: false }
+93 verbose mapToRegistry name grunt-contrib-htmlmin
+94 verbose mapToRegistry uri https://registry.npmjs.org/grunt-contrib-htmlmin
+95 silly addNonLocal parsed spec { raw: 'grunt-contrib-imagemin@^0.8.0',
+95 silly addNonLocal   scope: null,
+95 silly addNonLocal   name: 'grunt-contrib-imagemin',
+95 silly addNonLocal   rawSpec: '^0.8.0',
+95 silly addNonLocal   spec: '>=0.8.0 <0.9.0',
+95 silly addNonLocal   type: 'range' }
+96 verbose addNamed grunt-contrib-imagemin@>=0.8.0 <0.9.0
+97 silly addNamed semver.valid null
+98 silly addNamed semver.validRange >=0.8.0 <0.9.0
+99 silly addNameRange { name: 'grunt-contrib-imagemin',
+99 silly addNameRange   range: '>=0.8.0 <0.9.0',
+99 silly addNameRange   hasData: false }
+100 verbose mapToRegistry name grunt-contrib-imagemin
+101 verbose mapToRegistry uri https://registry.npmjs.org/grunt-contrib-imagemin
+102 silly cache add args [ 'grunt-contrib-uglify@^0.5.1', null ]
+103 verbose cache add spec grunt-contrib-uglify@^0.5.1
+104 silly cache add parsed spec { raw: 'grunt-contrib-uglify@^0.5.1',
+104 silly cache add   scope: null,
+104 silly cache add   name: 'grunt-contrib-uglify',
+104 silly cache add   rawSpec: '^0.5.1',
+104 silly cache add   spec: '>=0.5.1 <0.6.0',
+104 silly cache add   type: 'range' }
+105 silly cache add args [ 'grunt-contrib-watch@^0.6.1', null ]
+106 verbose cache add spec grunt-contrib-watch@^0.6.1
+107 silly cache add parsed spec { raw: 'grunt-contrib-watch@^0.6.1',
+107 silly cache add   scope: null,
+107 silly cache add   name: 'grunt-contrib-watch',
+107 silly cache add   rawSpec: '^0.6.1',
+107 silly cache add   spec: '>=0.6.1 <0.7.0',
+107 silly cache add   type: 'range' }
+108 silly cache add args [ 'grunt-mocha@^0.4.10', null ]
+109 verbose cache add spec grunt-mocha@^0.4.10
+110 silly cache add parsed spec { raw: 'grunt-mocha@^0.4.10',
+110 silly cache add   scope: null,
+110 silly cache add   name: 'grunt-mocha',
+110 silly cache add   rawSpec: '^0.4.10',
+110 silly cache add   spec: '>=0.4.10 <0.5.0',
+110 silly cache add   type: 'range' }
+111 silly cache add args [ 'grunt-newer@^0.7.0', null ]
+112 verbose cache add spec grunt-newer@^0.7.0
+113 silly cache add parsed spec { raw: 'grunt-newer@^0.7.0',
+113 silly cache add   scope: null,
+113 silly cache add   name: 'grunt-newer',
+113 silly cache add   rawSpec: '^0.7.0',
+113 silly cache add   spec: '>=0.7.0 <0.8.0',
+113 silly cache add   type: 'range' }
+114 silly cache add args [ 'grunt-rev@^0.1.0', null ]
+115 verbose cache add spec grunt-rev@^0.1.0
+116 silly cache add parsed spec { raw: 'grunt-rev@^0.1.0',
+116 silly cache add   scope: null,
+116 silly cache add   name: 'grunt-rev',
+116 silly cache add   rawSpec: '^0.1.0',
+116 silly cache add   spec: '>=0.1.0 <0.2.0',
+116 silly cache add   type: 'range' }
+117 silly cache add args [ 'grunt-svgmin@^0.4.0', null ]
+118 verbose cache add spec grunt-svgmin@^0.4.0
+119 silly cache add parsed spec { raw: 'grunt-svgmin@^0.4.0',
+119 silly cache add   scope: null,
+119 silly cache add   name: 'grunt-svgmin',
+119 silly cache add   rawSpec: '^0.4.0',
+119 silly cache add   spec: '>=0.4.0 <0.5.0',
+119 silly cache add   type: 'range' }
+120 silly cache add args [ 'grunt-usemin@^2.3.0', null ]
+121 verbose cache add spec grunt-usemin@^2.3.0
+122 silly cache add parsed spec { raw: 'grunt-usemin@^2.3.0',
+122 silly cache add   scope: null,
+122 silly cache add   name: 'grunt-usemin',
+122 silly cache add   rawSpec: '^2.3.0',
+122 silly cache add   spec: '>=2.3.0 <3.0.0',
+122 silly cache add   type: 'range' }
+123 silly cache add args [ 'grunt-wiredep@^1.7.0', null ]
+124 verbose cache add spec grunt-wiredep@^1.7.0
+125 silly cache add parsed spec { raw: 'grunt-wiredep@^1.7.0',
+125 silly cache add   scope: null,
+125 silly cache add   name: 'grunt-wiredep',
+125 silly cache add   rawSpec: '^1.7.0',
+125 silly cache add   spec: '>=1.7.0 <2.0.0',
+125 silly cache add   type: 'range' }
+126 silly cache add args [ 'jshint-stylish@^0.4.0', null ]
+127 verbose cache add spec jshint-stylish@^0.4.0
+128 silly cache add parsed spec { raw: 'jshint-stylish@^0.4.0',
+128 silly cache add   scope: null,
+128 silly cache add   name: 'jshint-stylish',
+128 silly cache add   rawSpec: '^0.4.0',
+128 silly cache add   spec: '>=0.4.0 <0.5.0',
+128 silly cache add   type: 'range' }
+129 silly cache add args [ 'load-grunt-tasks@^0.4.0', null ]
+130 verbose cache add spec load-grunt-tasks@^0.4.0
+131 silly cache add parsed spec { raw: 'load-grunt-tasks@^0.4.0',
+131 silly cache add   scope: null,
+131 silly cache add   name: 'load-grunt-tasks',
+131 silly cache add   rawSpec: '^0.4.0',
+131 silly cache add   spec: '>=0.4.0 <0.5.0',
+131 silly cache add   type: 'range' }
+132 silly cache add args [ 'time-grunt@^0.4.0', null ]
+133 verbose cache add spec time-grunt@^0.4.0
+134 silly cache add parsed spec { raw: 'time-grunt@^0.4.0',
+134 silly cache add   scope: null,
+134 silly cache add   name: 'time-grunt',
+134 silly cache add   rawSpec: '^0.4.0',
+134 silly cache add   spec: '>=0.4.0 <0.5.0',
+134 silly cache add   type: 'range' }
+135 silly cache add args [ 'apache-server-configs@^2.7.1', null ]
+136 verbose cache add spec apache-server-configs@^2.7.1
+137 silly cache add parsed spec { raw: 'apache-server-configs@^2.7.1',
+137 silly cache add   scope: null,
+137 silly cache add   name: 'apache-server-configs',
+137 silly cache add   rawSpec: '^2.7.1',
+137 silly cache add   spec: '>=2.7.1 <3.0.0',
+137 silly cache add   type: 'range' }
+138 silly cache add args [ 'grunt@^0.4.5', null ]
+139 verbose cache add spec grunt@^0.4.5
+140 silly cache add parsed spec { raw: 'grunt@^0.4.5',
+140 silly cache add   scope: null,
+140 silly cache add   name: 'grunt',
+140 silly cache add   rawSpec: '^0.4.5',
+140 silly cache add   spec: '>=0.4.5 <0.5.0',
+140 silly cache add   type: 'range' }
+141 silly addNonLocal parsed spec { raw: 'grunt-contrib-jshint@^0.10.0',
+141 silly addNonLocal   scope: null,
+141 silly addNonLocal   name: 'grunt-contrib-jshint',
+141 silly addNonLocal   rawSpec: '^0.10.0',
+141 silly addNonLocal   spec: '>=0.10.0 <0.11.0',
+141 silly addNonLocal   type: 'range' }
+142 verbose addNamed grunt-contrib-jshint@>=0.10.0 <0.11.0
+143 silly addNamed semver.valid null
+144 silly addNamed semver.validRange >=0.10.0 <0.11.0
+145 silly addNameRange { name: 'grunt-contrib-jshint',
+145 silly addNameRange   range: '>=0.10.0 <0.11.0',
+145 silly addNameRange   hasData: false }
+146 verbose mapToRegistry name grunt-contrib-jshint
+147 verbose mapToRegistry uri https://registry.npmjs.org/grunt-contrib-jshint
+148 silly addNonLocal parsed spec { raw: 'grunt-contrib-uglify@^0.5.1',
+148 silly addNonLocal   scope: null,
+148 silly addNonLocal   name: 'grunt-contrib-uglify',
+148 silly addNonLocal   rawSpec: '^0.5.1',
+148 silly addNonLocal   spec: '>=0.5.1 <0.6.0',
+148 silly addNonLocal   type: 'range' }
+149 verbose addNamed grunt-contrib-uglify@>=0.5.1 <0.6.0
+150 silly addNamed semver.valid null
+151 silly addNamed semver.validRange >=0.5.1 <0.6.0
+152 silly addNameRange { name: 'grunt-contrib-uglify',
+152 silly addNameRange   range: '>=0.5.1 <0.6.0',
+152 silly addNameRange   hasData: false }
+153 verbose mapToRegistry name grunt-contrib-uglify
+154 verbose mapToRegistry uri https://registry.npmjs.org/grunt-contrib-uglify
+155 silly addNonLocal parsed spec { raw: 'grunt-contrib-watch@^0.6.1',
+155 silly addNonLocal   scope: null,
+155 silly addNonLocal   name: 'grunt-contrib-watch',
+155 silly addNonLocal   rawSpec: '^0.6.1',
+155 silly addNonLocal   spec: '>=0.6.1 <0.7.0',
+155 silly addNonLocal   type: 'range' }
+156 verbose addNamed grunt-contrib-watch@>=0.6.1 <0.7.0
+157 silly addNamed semver.valid null
+158 silly addNamed semver.validRange >=0.6.1 <0.7.0
+159 silly addNameRange { name: 'grunt-contrib-watch',
+159 silly addNameRange   range: '>=0.6.1 <0.7.0',
+159 silly addNameRange   hasData: false }
+160 verbose mapToRegistry name grunt-contrib-watch
+161 verbose mapToRegistry uri https://registry.npmjs.org/grunt-contrib-watch
+162 silly addNonLocal parsed spec { raw: 'grunt-mocha@^0.4.10',
+162 silly addNonLocal   scope: null,
+162 silly addNonLocal   name: 'grunt-mocha',
+162 silly addNonLocal   rawSpec: '^0.4.10',
+162 silly addNonLocal   spec: '>=0.4.10 <0.5.0',
+162 silly addNonLocal   type: 'range' }
+163 verbose addNamed grunt-mocha@>=0.4.10 <0.5.0
+164 silly addNamed semver.valid null
+165 silly addNamed semver.validRange >=0.4.10 <0.5.0
+166 silly addNameRange { name: 'grunt-mocha', range: '>=0.4.10 <0.5.0', hasData: false }
+167 verbose mapToRegistry name grunt-mocha
+168 verbose mapToRegistry uri https://registry.npmjs.org/grunt-mocha
+169 silly addNonLocal parsed spec { raw: 'grunt-newer@^0.7.0',
+169 silly addNonLocal   scope: null,
+169 silly addNonLocal   name: 'grunt-newer',
+169 silly addNonLocal   rawSpec: '^0.7.0',
+169 silly addNonLocal   spec: '>=0.7.0 <0.8.0',
+169 silly addNonLocal   type: 'range' }
+170 verbose addNamed grunt-newer@>=0.7.0 <0.8.0
+171 silly addNamed semver.valid null
+172 silly addNamed semver.validRange >=0.7.0 <0.8.0
+173 silly addNameRange { name: 'grunt-newer', range: '>=0.7.0 <0.8.0', hasData: false }
+174 verbose mapToRegistry name grunt-newer
+175 verbose mapToRegistry uri https://registry.npmjs.org/grunt-newer
+176 silly addNonLocal parsed spec { raw: 'grunt-rev@^0.1.0',
+176 silly addNonLocal   scope: null,
+176 silly addNonLocal   name: 'grunt-rev',
+176 silly addNonLocal   rawSpec: '^0.1.0',
+176 silly addNonLocal   spec: '>=0.1.0 <0.2.0',
+176 silly addNonLocal   type: 'range' }
+177 verbose addNamed grunt-rev@>=0.1.0 <0.2.0
+178 silly addNamed semver.valid null
+179 silly addNamed semver.validRange >=0.1.0 <0.2.0
+180 silly addNameRange { name: 'grunt-rev', range: '>=0.1.0 <0.2.0', hasData: false }
+181 verbose mapToRegistry name grunt-rev
+182 verbose mapToRegistry uri https://registry.npmjs.org/grunt-rev
+183 silly addNonLocal parsed spec { raw: 'grunt-svgmin@^0.4.0',
+183 silly addNonLocal   scope: null,
+183 silly addNonLocal   name: 'grunt-svgmin',
+183 silly addNonLocal   rawSpec: '^0.4.0',
+183 silly addNonLocal   spec: '>=0.4.0 <0.5.0',
+183 silly addNonLocal   type: 'range' }
+184 verbose addNamed grunt-svgmin@>=0.4.0 <0.5.0
+185 silly addNamed semver.valid null
+186 silly addNamed semver.validRange >=0.4.0 <0.5.0
+187 silly addNameRange { name: 'grunt-svgmin', range: '>=0.4.0 <0.5.0', hasData: false }
+188 verbose mapToRegistry name grunt-svgmin
+189 verbose mapToRegistry uri https://registry.npmjs.org/grunt-svgmin
+190 silly addNonLocal parsed spec { raw: 'grunt-usemin@^2.3.0',
+190 silly addNonLocal   scope: null,
+190 silly addNonLocal   name: 'grunt-usemin',
+190 silly addNonLocal   rawSpec: '^2.3.0',
+190 silly addNonLocal   spec: '>=2.3.0 <3.0.0',
+190 silly addNonLocal   type: 'range' }
+191 verbose addNamed grunt-usemin@>=2.3.0 <3.0.0
+192 silly addNamed semver.valid null
+193 silly addNamed semver.validRange >=2.3.0 <3.0.0
+194 silly addNameRange { name: 'grunt-usemin', range: '>=2.3.0 <3.0.0', hasData: false }
+195 verbose mapToRegistry name grunt-usemin
+196 verbose mapToRegistry uri https://registry.npmjs.org/grunt-usemin
+197 silly addNonLocal parsed spec { raw: 'grunt-wiredep@^1.7.0',
+197 silly addNonLocal   scope: null,
+197 silly addNonLocal   name: 'grunt-wiredep',
+197 silly addNonLocal   rawSpec: '^1.7.0',
+197 silly addNonLocal   spec: '>=1.7.0 <2.0.0',
+197 silly addNonLocal   type: 'range' }
+198 verbose addNamed grunt-wiredep@>=1.7.0 <2.0.0
+199 silly addNamed semver.valid null
+200 silly addNamed semver.validRange >=1.7.0 <2.0.0
+201 silly addNameRange { name: 'grunt-wiredep',
+201 silly addNameRange   range: '>=1.7.0 <2.0.0',
+201 silly addNameRange   hasData: false }
+202 verbose mapToRegistry name grunt-wiredep
+203 verbose mapToRegistry uri https://registry.npmjs.org/grunt-wiredep
+204 silly addNonLocal parsed spec { raw: 'jshint-stylish@^0.4.0',
+204 silly addNonLocal   scope: null,
+204 silly addNonLocal   name: 'jshint-stylish',
+204 silly addNonLocal   rawSpec: '^0.4.0',
+204 silly addNonLocal   spec: '>=0.4.0 <0.5.0',
+204 silly addNonLocal   type: 'range' }
+205 verbose addNamed jshint-stylish@>=0.4.0 <0.5.0
+206 silly addNamed semver.valid null
+207 silly addNamed semver.validRange >=0.4.0 <0.5.0
+208 silly addNameRange { name: 'jshint-stylish',
+208 silly addNameRange   range: '>=0.4.0 <0.5.0',
+208 silly addNameRange   hasData: false }
+209 verbose mapToRegistry name jshint-stylish
+210 verbose mapToRegistry uri https://registry.npmjs.org/jshint-stylish
+211 silly addNonLocal parsed spec { raw: 'load-grunt-tasks@^0.4.0',
+211 silly addNonLocal   scope: null,
+211 silly addNonLocal   name: 'load-grunt-tasks',
+211 silly addNonLocal   rawSpec: '^0.4.0',
+211 silly addNonLocal   spec: '>=0.4.0 <0.5.0',
+211 silly addNonLocal   type: 'range' }
+212 verbose addNamed load-grunt-tasks@>=0.4.0 <0.5.0
+213 silly addNamed semver.valid null
+214 silly addNamed semver.validRange >=0.4.0 <0.5.0
+215 silly addNameRange { name: 'load-grunt-tasks',
+215 silly addNameRange   range: '>=0.4.0 <0.5.0',
+215 silly addNameRange   hasData: false }
+216 verbose mapToRegistry name load-grunt-tasks
+217 verbose mapToRegistry uri https://registry.npmjs.org/load-grunt-tasks
+218 silly addNonLocal parsed spec { raw: 'time-grunt@^0.4.0',
+218 silly addNonLocal   scope: null,
+218 silly addNonLocal   name: 'time-grunt',
+218 silly addNonLocal   rawSpec: '^0.4.0',
+218 silly addNonLocal   spec: '>=0.4.0 <0.5.0',
+218 silly addNonLocal   type: 'range' }
+219 verbose addNamed time-grunt@>=0.4.0 <0.5.0
+220 silly addNamed semver.valid null
+221 silly addNamed semver.validRange >=0.4.0 <0.5.0
+222 silly addNameRange { name: 'time-grunt', range: '>=0.4.0 <0.5.0', hasData: false }
+223 verbose mapToRegistry name time-grunt
+224 verbose mapToRegistry uri https://registry.npmjs.org/time-grunt
+225 silly addNonLocal parsed spec { raw: 'apache-server-configs@^2.7.1',
+225 silly addNonLocal   scope: null,
+225 silly addNonLocal   name: 'apache-server-configs',
+225 silly addNonLocal   rawSpec: '^2.7.1',
+225 silly addNonLocal   spec: '>=2.7.1 <3.0.0',
+225 silly addNonLocal   type: 'range' }
+226 verbose addNamed apache-server-configs@>=2.7.1 <3.0.0
+227 silly addNamed semver.valid null
+228 silly addNamed semver.validRange >=2.7.1 <3.0.0
+229 silly addNameRange { name: 'apache-server-configs',
+229 silly addNameRange   range: '>=2.7.1 <3.0.0',
+229 silly addNameRange   hasData: false }
+230 verbose mapToRegistry name apache-server-configs
+231 verbose mapToRegistry uri https://registry.npmjs.org/apache-server-configs
+232 silly addNonLocal parsed spec { raw: 'grunt@^0.4.5',
+232 silly addNonLocal   scope: null,
+232 silly addNonLocal   name: 'grunt',
+232 silly addNonLocal   rawSpec: '^0.4.5',
+232 silly addNonLocal   spec: '>=0.4.5 <0.5.0',
+232 silly addNonLocal   type: 'range' }
+233 verbose addNamed grunt@>=0.4.5 <0.5.0
+234 silly addNamed semver.valid null
+235 silly addNamed semver.validRange >=0.4.5 <0.5.0
+236 silly addNameRange { name: 'grunt', range: '>=0.4.5 <0.5.0', hasData: false }
+237 verbose mapToRegistry name grunt
+238 verbose mapToRegistry uri https://registry.npmjs.org/grunt
+239 verbose request on initialization, where is /grunt-autoprefixer
+240 verbose request after pass 1, where is /grunt-autoprefixer
+241 verbose request url raw /grunt-autoprefixer
+242 verbose request resolving registry [ 'https://registry.npmjs.org/', './grunt-autoprefixer' ]
+243 verbose request after pass 2, where is https://registry.npmjs.org/grunt-autoprefixer
+244 verbose request no auth needed
+245 info attempt registry request try #1 at 15:11:17
+246 verbose request id 2010ec6a30042b56
+247 verbose etag "6D5O6RQ4YCDC4YUXY0MD6JT2A"
+248 http request GET https://registry.npmjs.org/grunt-autoprefixer
+249 verbose request on initialization, where is /grunt-contrib-concat
+250 verbose request after pass 1, where is /grunt-contrib-concat
+251 verbose request url raw /grunt-contrib-concat
+252 verbose request resolving registry [ 'https://registry.npmjs.org/', './grunt-contrib-concat' ]
+253 verbose request after pass 2, where is https://registry.npmjs.org/grunt-contrib-concat
+254 verbose request no auth needed
+255 info attempt registry request try #1 at 15:11:17
+256 verbose etag "2IGZ0188GTAVGBENLY5JLM5S5"
+257 http request GET https://registry.npmjs.org/grunt-contrib-concat
+258 verbose request on initialization, where is /grunt-concurrent
+259 verbose request after pass 1, where is /grunt-concurrent
+260 verbose request url raw /grunt-concurrent
+261 verbose request resolving registry [ 'https://registry.npmjs.org/', './grunt-concurrent' ]
+262 verbose request after pass 2, where is https://registry.npmjs.org/grunt-concurrent
+263 verbose request no auth needed
+264 info attempt registry request try #1 at 15:11:17
+265 verbose etag "EVHLFIJXK2NHU6D67FOXWNCYY"
+266 http request GET https://registry.npmjs.org/grunt-concurrent
+267 verbose request on initialization, where is /grunt-contrib-connect
+268 verbose request after pass 1, where is /grunt-contrib-connect
+269 verbose request url raw /grunt-contrib-connect
+270 verbose request resolving registry [ 'https://registry.npmjs.org/', './grunt-contrib-connect' ]
+271 verbose request after pass 2, where is https://registry.npmjs.org/grunt-contrib-connect
+272 verbose request no auth needed
+273 info attempt registry request try #1 at 15:11:17
+274 verbose etag "11JX7B4RUXO846LD0I4YD9I9T"
+275 http request GET https://registry.npmjs.org/grunt-contrib-connect
+276 verbose request on initialization, where is /grunt-contrib-clean
+277 verbose request after pass 1, where is /grunt-contrib-clean
+278 verbose request url raw /grunt-contrib-clean
+279 verbose request resolving registry [ 'https://registry.npmjs.org/', './grunt-contrib-clean' ]
+280 verbose request after pass 2, where is https://registry.npmjs.org/grunt-contrib-clean
+281 verbose request no auth needed
+282 info attempt registry request try #1 at 15:11:17
+283 verbose etag "BNDTTYYTFLUKHG2PIICT4YN4X"
+284 http request GET https://registry.npmjs.org/grunt-contrib-clean
+285 verbose request on initialization, where is /grunt-contrib-copy
+286 verbose request after pass 1, where is /grunt-contrib-copy
+287 verbose request url raw /grunt-contrib-copy
+288 verbose request resolving registry [ 'https://registry.npmjs.org/', './grunt-contrib-copy' ]
+289 verbose request after pass 2, where is https://registry.npmjs.org/grunt-contrib-copy
+290 verbose request no auth needed
+291 info attempt registry request try #1 at 15:11:17
+292 verbose etag "F4JC24U0MY8I4MBPYJOVWSYEK"
+293 http request GET https://registry.npmjs.org/grunt-contrib-copy
+294 verbose request on initialization, where is /grunt-contrib-cssmin
+295 verbose request after pass 1, where is /grunt-contrib-cssmin
+296 verbose request url raw /grunt-contrib-cssmin
+297 verbose request resolving registry [ 'https://registry.npmjs.org/', './grunt-contrib-cssmin' ]
+298 verbose request after pass 2, where is https://registry.npmjs.org/grunt-contrib-cssmin
+299 verbose request no auth needed
+300 info attempt registry request try #1 at 15:11:17
+301 verbose etag "2R9QRGV3OM9MGH9K0V43KVNS6"
+302 http request GET https://registry.npmjs.org/grunt-contrib-cssmin
+303 verbose request on initialization, where is /grunt-contrib-htmlmin
+304 verbose request after pass 1, where is /grunt-contrib-htmlmin
+305 verbose request url raw /grunt-contrib-htmlmin
+306 verbose request resolving registry [ 'https://registry.npmjs.org/', './grunt-contrib-htmlmin' ]
+307 verbose request after pass 2, where is https://registry.npmjs.org/grunt-contrib-htmlmin
+308 verbose request no auth needed
+309 info attempt registry request try #1 at 15:11:17
+310 verbose etag "5Z820Y8S6MBFDY946T2W460O7"
+311 http request GET https://registry.npmjs.org/grunt-contrib-htmlmin
+312 verbose request on initialization, where is /grunt-contrib-imagemin
+313 verbose request after pass 1, where is /grunt-contrib-imagemin
+314 verbose request url raw /grunt-contrib-imagemin
+315 verbose request resolving registry [ 'https://registry.npmjs.org/', './grunt-contrib-imagemin' ]
+316 verbose request after pass 2, where is https://registry.npmjs.org/grunt-contrib-imagemin
+317 verbose request no auth needed
+318 info attempt registry request try #1 at 15:11:17
+319 verbose etag "BDMVPPXRHTPP818DXPV43IIMX"
+320 http request GET https://registry.npmjs.org/grunt-contrib-imagemin
+321 verbose request on initialization, where is /grunt-contrib-jshint
+322 verbose request after pass 1, where is /grunt-contrib-jshint
+323 verbose request url raw /grunt-contrib-jshint
+324 verbose request resolving registry [ 'https://registry.npmjs.org/', './grunt-contrib-jshint' ]
+325 verbose request after pass 2, where is https://registry.npmjs.org/grunt-contrib-jshint
+326 verbose request no auth needed
+327 info attempt registry request try #1 at 15:11:17
+328 verbose etag "6F8EY1WJJ4CVZ0D61BYBEIFC4"
+329 http request GET https://registry.npmjs.org/grunt-contrib-jshint
+330 verbose request on initialization, where is /grunt-contrib-watch
+331 verbose request after pass 1, where is /grunt-contrib-watch
+332 verbose request url raw /grunt-contrib-watch
+333 verbose request resolving registry [ 'https://registry.npmjs.org/', './grunt-contrib-watch' ]
+334 verbose request after pass 2, where is https://registry.npmjs.org/grunt-contrib-watch
+335 verbose request no auth needed
+336 info attempt registry request try #1 at 15:11:17
+337 verbose etag "23RZQQ0Q2287VE2MWQ6ZU9EXO"
+338 http request GET https://registry.npmjs.org/grunt-contrib-watch
+339 verbose request on initialization, where is /grunt-mocha
+340 verbose request after pass 1, where is /grunt-mocha
+341 verbose request url raw /grunt-mocha
+342 verbose request resolving registry [ 'https://registry.npmjs.org/', './grunt-mocha' ]
+343 verbose request after pass 2, where is https://registry.npmjs.org/grunt-mocha
+344 verbose request no auth needed
+345 info attempt registry request try #1 at 15:11:17
+346 verbose etag "DVGJW6H7D8TZZA6PM09U5JXKB"
+347 http request GET https://registry.npmjs.org/grunt-mocha
+348 verbose request on initialization, where is /grunt-newer
+349 verbose request after pass 1, where is /grunt-newer
+350 verbose request url raw /grunt-newer
+351 verbose request resolving registry [ 'https://registry.npmjs.org/', './grunt-newer' ]
+352 verbose request after pass 2, where is https://registry.npmjs.org/grunt-newer
+353 verbose request no auth needed
+354 info attempt registry request try #1 at 15:11:17
+355 verbose etag "DCX7PDGVC1XPH7THDYHRX6QK1"
+356 http request GET https://registry.npmjs.org/grunt-newer
+357 verbose request on initialization, where is /grunt-contrib-uglify
+358 verbose request after pass 1, where is /grunt-contrib-uglify
+359 verbose request url raw /grunt-contrib-uglify
+360 verbose request resolving registry [ 'https://registry.npmjs.org/', './grunt-contrib-uglify' ]
+361 verbose request after pass 2, where is https://registry.npmjs.org/grunt-contrib-uglify
+362 verbose request no auth needed
+363 info attempt registry request try #1 at 15:11:17
+364 verbose etag "BOFPHII33LR16LIVJAHOQEANM"
+365 http request GET https://registry.npmjs.org/grunt-contrib-uglify
+366 verbose request on initialization, where is /grunt-rev
+367 verbose request after pass 1, where is /grunt-rev
+368 verbose request url raw /grunt-rev
+369 verbose request resolving registry [ 'https://registry.npmjs.org/', './grunt-rev' ]
+370 verbose request after pass 2, where is https://registry.npmjs.org/grunt-rev
+371 verbose request no auth needed
+372 info attempt registry request try #1 at 15:11:17
+373 verbose etag "EEHOQDS1MVIASBK09VRULD810"
+374 http request GET https://registry.npmjs.org/grunt-rev
+375 verbose request on initialization, where is /grunt-svgmin
+376 verbose request after pass 1, where is /grunt-svgmin
+377 verbose request url raw /grunt-svgmin
+378 verbose request resolving registry [ 'https://registry.npmjs.org/', './grunt-svgmin' ]
+379 verbose request after pass 2, where is https://registry.npmjs.org/grunt-svgmin
+380 verbose request no auth needed
+381 info attempt registry request try #1 at 15:11:17
+382 verbose etag "2W77CN55VIF2ET6QKXHUJV0SV"
+383 http request GET https://registry.npmjs.org/grunt-svgmin
+384 verbose request on initialization, where is /grunt-usemin
+385 verbose request after pass 1, where is /grunt-usemin
+386 verbose request url raw /grunt-usemin
+387 verbose request resolving registry [ 'https://registry.npmjs.org/', './grunt-usemin' ]
+388 verbose request after pass 2, where is https://registry.npmjs.org/grunt-usemin
+389 verbose request no auth needed
+390 info attempt registry request try #1 at 15:11:17
+391 verbose etag "18FZAY48R7UDDU5D6JQKDU4BE"
+392 http request GET https://registry.npmjs.org/grunt-usemin
+393 verbose request on initialization, where is /grunt-wiredep
+394 verbose request after pass 1, where is /grunt-wiredep
+395 verbose request url raw /grunt-wiredep
+396 verbose request resolving registry [ 'https://registry.npmjs.org/', './grunt-wiredep' ]
+397 verbose request after pass 2, where is https://registry.npmjs.org/grunt-wiredep
+398 verbose request no auth needed
+399 info attempt registry request try #1 at 15:11:17
+400 verbose etag "EF74FCKTXFTXPVW3K28EU6F6P"
+401 http request GET https://registry.npmjs.org/grunt-wiredep
+402 verbose request on initialization, where is /jshint-stylish
+403 verbose request after pass 1, where is /jshint-stylish
+404 verbose request url raw /jshint-stylish
+405 verbose request resolving registry [ 'https://registry.npmjs.org/', './jshint-stylish' ]
+406 verbose request after pass 2, where is https://registry.npmjs.org/jshint-stylish
+407 verbose request no auth needed
+408 info attempt registry request try #1 at 15:11:17
+409 verbose etag "7CG270BLDHKJV77OA2K8ELH6I"
+410 http request GET https://registry.npmjs.org/jshint-stylish
+411 verbose request on initialization, where is /load-grunt-tasks
+412 verbose request after pass 1, where is /load-grunt-tasks
+413 verbose request url raw /load-grunt-tasks
+414 verbose request resolving registry [ 'https://registry.npmjs.org/', './load-grunt-tasks' ]
+415 verbose request after pass 2, where is https://registry.npmjs.org/load-grunt-tasks
+416 verbose request no auth needed
+417 info attempt registry request try #1 at 15:11:17
+418 verbose etag "1UP9IANIM2AMVASEUI0S47595"
+419 http request GET https://registry.npmjs.org/load-grunt-tasks
+420 verbose request on initialization, where is /time-grunt
+421 verbose request after pass 1, where is /time-grunt
+422 verbose request url raw /time-grunt
+423 verbose request resolving registry [ 'https://registry.npmjs.org/', './time-grunt' ]
+424 verbose request after pass 2, where is https://registry.npmjs.org/time-grunt
+425 verbose request no auth needed
+426 info attempt registry request try #1 at 15:11:17
+427 verbose etag "BZWT2LK0RG6GAH36W612K3412"
+428 http request GET https://registry.npmjs.org/time-grunt
+429 verbose request on initialization, where is /apache-server-configs
+430 verbose request after pass 1, where is /apache-server-configs
+431 verbose request url raw /apache-server-configs
+432 verbose request resolving registry [ 'https://registry.npmjs.org/', './apache-server-configs' ]
+433 verbose request after pass 2, where is https://registry.npmjs.org/apache-server-configs
+434 verbose request no auth needed
+435 info attempt registry request try #1 at 15:11:17
+436 verbose etag "16UFHMKJSG2059URK6AIJ83A4"
+437 http request GET https://registry.npmjs.org/apache-server-configs
+438 verbose request on initialization, where is /grunt
+439 verbose request after pass 1, where is /grunt
+440 verbose request url raw /grunt
+441 verbose request resolving registry [ 'https://registry.npmjs.org/', './grunt' ]
+442 verbose request after pass 2, where is https://registry.npmjs.org/grunt
+443 verbose request no auth needed
+444 info attempt registry request try #1 at 15:11:17
+445 verbose etag "5PQV26W7R1ZQ79WGH20N8F8PH"
+446 http request GET https://registry.npmjs.org/grunt
+447 http 304 https://registry.npmjs.org/grunt-autoprefixer
+448 silly registry.get cb [ 304,
+448 silly registry.get   { date: 'Thu, 23 Apr 2015 19:11:17 GMT',
+448 silly registry.get     via: '1.1 varnish',
+448 silly registry.get     'last-modified': 'Thu, 23 Apr 2015 19:11:17 GMT',
+448 silly registry.get     'cache-control': 'max-age=60',
+448 silly registry.get     etag: '"6D5O6RQ4YCDC4YUXY0MD6JT2A"',
+448 silly registry.get     age: '9',
+448 silly registry.get     connection: 'keep-alive',
+448 silly registry.get     'x-served-by': 'cache-atl6227-ATL',
+448 silly registry.get     'x-cache': 'HIT',
+448 silly registry.get     'x-cache-hits': '1',
+448 silly registry.get     'x-timer': 'S1429816277.608726,VS0,VE1',
+448 silly registry.get     vary: 'Accept' } ]
+449 verbose etag https://registry.npmjs.org/grunt-autoprefixer from cache
+450 http 304 https://registry.npmjs.org/grunt-concurrent
+451 silly registry.get cb [ 304,
+451 silly registry.get   { date: 'Thu, 23 Apr 2015 19:11:17 GMT',
+451 silly registry.get     via: '1.1 varnish',
+451 silly registry.get     'last-modified': 'Thu, 23 Apr 2015 18:54:41 GMT',
+451 silly registry.get     'cache-control': 'max-age=60',
+451 silly registry.get     etag: '"EVHLFIJXK2NHU6D67FOXWNCYY"',
+451 silly registry.get     age: '30',
+451 silly registry.get     connection: 'keep-alive',
+451 silly registry.get     'x-served-by': 'cache-atl6224-ATL',
+451 silly registry.get     'x-cache': 'HIT',
+451 silly registry.get     'x-cache-hits': '50',
+451 silly registry.get     'x-timer': 'S1429816277.627248,VS0,VE0',
+451 silly registry.get     vary: 'Accept' } ]
+452 verbose etag https://registry.npmjs.org/grunt-concurrent from cache
+453 http 304 https://registry.npmjs.org/grunt-contrib-connect
+454 silly registry.get cb [ 304,
+454 silly registry.get   { date: 'Thu, 23 Apr 2015 19:11:17 GMT',
+454 silly registry.get     via: '1.1 varnish',
+454 silly registry.get     'last-modified': 'Thu, 23 Apr 2015 19:11:01 GMT',
+454 silly registry.get     'cache-control': 'max-age=60',
+454 silly registry.get     etag: '"11JX7B4RUXO846LD0I4YD9I9T"',
+454 silly registry.get     age: '16',
+454 silly registry.get     connection: 'keep-alive',
+454 silly registry.get     'x-served-by': 'cache-atl6225-ATL',
+454 silly registry.get     'x-cache': 'HIT',
+454 silly registry.get     'x-cache-hits': '2',
+454 silly registry.get     'x-timer': 'S1429816277.634586,VS0,VE0',
+454 silly registry.get     vary: 'Accept' } ]
+455 verbose etag https://registry.npmjs.org/grunt-contrib-connect from cache
+456 http 304 https://registry.npmjs.org/grunt-contrib-concat
+457 silly registry.get cb [ 304,
+457 silly registry.get   { date: 'Thu, 23 Apr 2015 19:11:17 GMT',
+457 silly registry.get     via: '1.1 varnish',
+457 silly registry.get     'last-modified': 'Thu, 23 Apr 2015 19:11:17 GMT',
+457 silly registry.get     'cache-control': 'max-age=60',
+457 silly registry.get     etag: '"2IGZ0188GTAVGBENLY5JLM5S5"',
+457 silly registry.get     age: '7',
+457 silly registry.get     connection: 'keep-alive',
+457 silly registry.get     'x-served-by': 'cache-atl6227-ATL',
+457 silly registry.get     'x-cache': 'HIT',
+457 silly registry.get     'x-cache-hits': '1',
+457 silly registry.get     'x-timer': 'S1429816277.636995,VS0,VE1',
+457 silly registry.get     vary: 'Accept' } ]
+458 verbose etag https://registry.npmjs.org/grunt-contrib-concat from cache
+459 http 304 https://registry.npmjs.org/grunt-contrib-clean
+460 silly registry.get cb [ 304,
+460 silly registry.get   { date: 'Thu, 23 Apr 2015 19:11:17 GMT',
+460 silly registry.get     via: '1.1 varnish',
+460 silly registry.get     'last-modified': 'Thu, 23 Apr 2015 19:11:17 GMT',
+460 silly registry.get     'cache-control': 'max-age=60',
+460 silly registry.get     etag: '"BNDTTYYTFLUKHG2PIICT4YN4X"',
+460 silly registry.get     age: '7',
+460 silly registry.get     connection: 'keep-alive',
+460 silly registry.get     'x-served-by': 'cache-atl6231-ATL',
+460 silly registry.get     'x-cache': 'HIT',
+460 silly registry.get     'x-cache-hits': '1',
+460 silly registry.get     'x-timer': 'S1429816277.636335,VS0,VE1',
+460 silly registry.get     vary: 'Accept' } ]
+461 verbose etag https://registry.npmjs.org/grunt-contrib-clean from cache
+462 silly addNameRange number 2 { name: 'grunt-autoprefixer',
+462 silly addNameRange   range: '>=1.0.0 <2.0.0',
+462 silly addNameRange   hasData: true }
+463 silly addNameRange versions [ 'grunt-autoprefixer',
+463 silly addNameRange   [ '0.1.0',
+463 silly addNameRange     '0.1.20130424',
+463 silly addNameRange     '0.1.20130516',
+463 silly addNameRange     '0.1.20130615',
+463 silly addNameRange     '0.2.0',
+463 silly addNameRange     '0.2.20130718',
+463 silly addNameRange     '0.2.20130806',
+463 silly addNameRange     '0.3.0',
+463 silly addNameRange     '0.3.1',
+463 silly addNameRange     '0.4.0',
+463 silly addNameRange     '0.4.1',
+463 silly addNameRange     '0.4.2',
+463 silly addNameRange     '0.5.0',
+463 silly addNameRange     '0.6.0',
+463 silly addNameRange     '0.6.1',
+463 silly addNameRange     '0.6.2',
+463 silly addNameRange     '0.6.3',
+463 silly addNameRange     '0.6.4',
+463 silly addNameRange     '0.6.5',
+463 silly addNameRange     '0.7.0',
+463 silly addNameRange     '0.7.1',
+463 silly addNameRange     '0.7.2',
+463 silly addNameRange     '0.7.3',
+463 silly addNameRange     '0.7.4',
+463 silly addNameRange     '0.7.5',
+463 silly addNameRange     '0.7.6',
+463 silly addNameRange     '0.8.0',
+463 silly addNameRange     '0.8.1',
+463 silly addNameRange     '0.8.2',
+463 silly addNameRange     '1.0.0',
+463 silly addNameRange     '1.0.1',
+463 silly addNameRange     '2.0.0',
+463 silly addNameRange     '2.1.0',
+463 silly addNameRange     '2.2.0',
+463 silly addNameRange     '3.0.0' ] ]
+464 verbose addNamed grunt-autoprefixer@1.0.1
+465 silly addNamed semver.valid 1.0.1
+466 silly addNamed semver.validRange 1.0.1
+467 silly addNameRange number 2 { name: 'grunt-concurrent',
+467 silly addNameRange   range: '>=0.5.0 <0.6.0',
+467 silly addNameRange   hasData: true }
+468 silly addNameRange versions [ 'grunt-concurrent',
+468 silly addNameRange   [ '0.1.0',
+468 silly addNameRange     '0.1.1',
+468 silly addNameRange     '0.2.0',
+468 silly addNameRange     '0.3.0',
+468 silly addNameRange     '0.3.1',
+468 silly addNameRange     '0.4.0',
+468 silly addNameRange     '0.4.1',
+468 silly addNameRange     '0.4.2',
+468 silly addNameRange     '0.4.3',
+468 silly addNameRange     '0.5.0',
+468 silly addNameRange     '1.0.0' ] ]
+469 verbose addNamed grunt-concurrent@0.5.0
+470 silly addNamed semver.valid 0.5.0
+471 silly addNamed semver.validRange 0.5.0
+472 silly addNameRange number 2 { name: 'grunt-contrib-connect',
+472 silly addNameRange   range: '>=0.8.0 <0.9.0',
+472 silly addNameRange   hasData: true }
+473 silly addNameRange versions [ 'grunt-contrib-connect',
+473 silly addNameRange   [ '0.1.0',
+473 silly addNameRange     '0.1.1',
+473 silly addNameRange     '0.1.2',
+473 silly addNameRange     '0.2.0',
+473 silly addNameRange     '0.3.0',
+473 silly addNameRange     '0.4.0',
+473 silly addNameRange     '0.4.1',
+473 silly addNameRange     '0.4.2',
+473 silly addNameRange     '0.5.0',
+473 silly addNameRange     '0.6.0',
+473 silly addNameRange     '0.7.0',
+473 silly addNameRange     '0.7.1',
+473 silly addNameRange     '0.8.0',
+473 silly addNameRange     '0.9.0',
+473 silly addNameRange     '0.10.0',
+473 silly addNameRange     '0.10.1',
+473 silly addNameRange     '0.1.1-rc6' ] ]
+474 verbose addNamed grunt-contrib-connect@0.8.0
+475 silly addNamed semver.valid 0.8.0
+476 silly addNamed semver.validRange 0.8.0
+477 silly addNameRange number 2 { name: 'grunt-contrib-concat',
+477 silly addNameRange   range: '>=0.5.0 <0.6.0',
+477 silly addNameRange   hasData: true }
+478 silly addNameRange versions [ 'grunt-contrib-concat',
+478 silly addNameRange   [ '0.1.0',
+478 silly addNameRange     '0.1.1',
+478 silly addNameRange     '0.1.2',
+478 silly addNameRange     '0.1.3',
+478 silly addNameRange     '0.2.0',
+478 silly addNameRange     '0.3.0',
+478 silly addNameRange     '0.4.0',
+478 silly addNameRange     '0.5.0',
+478 silly addNameRange     '0.5.1',
+478 silly addNameRange     '0.1.2-rc5',
+478 silly addNameRange     '0.1.2-rc6' ] ]
+479 verbose addNamed grunt-contrib-concat@0.5.1
+480 silly addNamed semver.valid 0.5.1
+481 silly addNamed semver.validRange 0.5.1
+482 http 304 https://registry.npmjs.org/grunt-contrib-copy
+483 silly registry.get cb [ 304,
+483 silly registry.get   { date: 'Thu, 23 Apr 2015 19:11:17 GMT',
+483 silly registry.get     via: '1.1 varnish',
+483 silly registry.get     'last-modified': 'Thu, 23 Apr 2015 19:11:17 GMT',
+483 silly registry.get     'cache-control': 'max-age=60',
+483 silly registry.get     etag: '"F4JC24U0MY8I4MBPYJOVWSYEK"',
+483 silly registry.get     age: '59',
+483 silly registry.get     connection: 'keep-alive',
+483 silly registry.get     'x-served-by': 'cache-atl6227-ATL',
+483 silly registry.get     'x-cache': 'HIT',
+483 silly registry.get     'x-cache-hits': '1',
+483 silly registry.get     'x-timer': 'S1429816277.664703,VS0,VE1',
+483 silly registry.get     vary: 'Accept' } ]
+484 verbose etag https://registry.npmjs.org/grunt-contrib-copy from cache
+485 silly addNameRange number 2 { name: 'grunt-contrib-clean',
+485 silly addNameRange   range: '>=0.6.0 <0.7.0',
+485 silly addNameRange   hasData: true }
+486 silly addNameRange versions [ 'grunt-contrib-clean',
+486 silly addNameRange   [ '0.1.0',
+486 silly addNameRange     '0.2.0',
+486 silly addNameRange     '0.3.0',
+486 silly addNameRange     '0.3.1',
+486 silly addNameRange     '0.3.2',
+486 silly addNameRange     '0.4.0',
+486 silly addNameRange     '0.4.1',
+486 silly addNameRange     '0.5.0',
+486 silly addNameRange     '0.6.0',
+486 silly addNameRange     '0.4.0-a',
+486 silly addNameRange     '0.4.0-rc5',
+486 silly addNameRange     '0.4.0-rc6' ] ]
+487 verbose addNamed grunt-contrib-clean@0.6.0
+488 silly addNamed semver.valid 0.6.0
+489 silly addNamed semver.validRange 0.6.0
+490 silly addNameRange number 2 { name: 'grunt-contrib-copy',
+490 silly addNameRange   range: '>=0.5.0 <0.6.0',
+490 silly addNameRange   hasData: true }
+491 silly addNameRange versions [ 'grunt-contrib-copy',
+491 silly addNameRange   [ '0.2.0',
+491 silly addNameRange     '0.2.1',
+491 silly addNameRange     '0.2.2',
+491 silly addNameRange     '0.2.3',
+491 silly addNameRange     '0.2.4',
+491 silly addNameRange     '0.3.0',
+491 silly addNameRange     '0.3.1',
+491 silly addNameRange     '0.3.2',
+491 silly addNameRange     '0.4.0',
+491 silly addNameRange     '0.4.1',
+491 silly addNameRange     '0.5.0',
+491 silly addNameRange     '0.6.0',
+491 silly addNameRange     '0.7.0',
+491 silly addNameRange     '0.8.0',
+491 silly addNameRange     '0.4.0-rc7' ] ]
+492 verbose addNamed grunt-contrib-copy@0.5.0
+493 silly addNamed semver.valid 0.5.0
+494 silly addNamed semver.validRange 0.5.0
+495 http 304 https://registry.npmjs.org/grunt-contrib-cssmin
+496 silly registry.get cb [ 304,
+496 silly registry.get   { date: 'Thu, 23 Apr 2015 19:11:17 GMT',
+496 silly registry.get     via: '1.1 varnish',
+496 silly registry.get     'last-modified': 'Thu, 23 Apr 2015 19:11:08 GMT',
+496 silly registry.get     'cache-control': 'max-age=60',
+496 silly registry.get     etag: '"2R9QRGV3OM9MGH9K0V43KVNS6"',
+496 silly registry.get     age: '14',
+496 silly registry.get     connection: 'keep-alive',
+496 silly registry.get     'x-served-by': 'cache-atl6224-ATL',
+496 silly registry.get     'x-cache': 'HIT',
+496 silly registry.get     'x-cache-hits': '2',
+496 silly registry.get     'x-timer': 'S1429816277.684804,VS0,VE0',
+496 silly registry.get     vary: 'Accept' } ]
+497 verbose etag https://registry.npmjs.org/grunt-contrib-cssmin from cache
+498 http 304 https://registry.npmjs.org/grunt-contrib-htmlmin
+499 silly registry.get cb [ 304,
+499 silly registry.get   { date: 'Thu, 23 Apr 2015 19:11:17 GMT',
+499 silly registry.get     via: '1.1 varnish',
+499 silly registry.get     'last-modified': 'Thu, 23 Apr 2015 19:11:17 GMT',
+499 silly registry.get     'cache-control': 'max-age=60',
+499 silly registry.get     etag: '"5Z820Y8S6MBFDY946T2W460O7"',
+499 silly registry.get     age: '9',
+499 silly registry.get     connection: 'keep-alive',
+499 silly registry.get     'x-served-by': 'cache-atl6225-ATL',
+499 silly registry.get     'x-cache': 'HIT',
+499 silly registry.get     'x-cache-hits': '1',
+499 silly registry.get     'x-timer': 'S1429816277.688908,VS0,VE0',
+499 silly registry.get     vary: 'Accept' } ]
+500 verbose etag https://registry.npmjs.org/grunt-contrib-htmlmin from cache
+501 silly addNameRange number 2 { name: 'grunt-contrib-cssmin',
+501 silly addNameRange   range: '>=0.10.0 <0.11.0',
+501 silly addNameRange   hasData: true }
+502 silly addNameRange versions [ 'grunt-contrib-cssmin',
+502 silly addNameRange   [ '0.4.0',
+502 silly addNameRange     '0.4.1',
+502 silly addNameRange     '0.4.2',
+502 silly addNameRange     '0.5.0',
+502 silly addNameRange     '0.6.0',
+502 silly addNameRange     '0.6.1',
+502 silly addNameRange     '0.6.2',
+502 silly addNameRange     '0.7.0',
+502 silly addNameRange     '0.8.0',
+502 silly addNameRange     '0.9.0',
+502 silly addNameRange     '0.10.0',
+502 silly addNameRange     '0.11.0',
+502 silly addNameRange     '0.12.0',
+502 silly addNameRange     '0.12.1',
+502 silly addNameRange     '0.12.2' ] ]
+503 verbose addNamed grunt-contrib-cssmin@0.10.0
+504 silly addNamed semver.valid 0.10.0
+505 silly addNamed semver.validRange 0.10.0
+506 http 304 https://registry.npmjs.org/grunt-contrib-jshint
+507 silly registry.get cb [ 304,
+507 silly registry.get   { date: 'Thu, 23 Apr 2015 19:11:17 GMT',
+507 silly registry.get     via: '1.1 varnish',
+507 silly registry.get     'last-modified': 'Thu, 23 Apr 2015 19:11:17 GMT',
+507 silly registry.get     'cache-control': 'max-age=60',
+507 silly registry.get     etag: '"6F8EY1WJJ4CVZ0D61BYBEIFC4"',
+507 silly registry.get     age: '59',
+507 silly registry.get     connection: 'keep-alive',
+507 silly registry.get     'x-served-by': 'cache-atl6231-ATL',
+507 silly registry.get     'x-cache': 'HIT',
+507 silly registry.get     'x-cache-hits': '1',
+507 silly registry.get     'x-timer': 'S1429816277.694785,VS0,VE2',
+507 silly registry.get     vary: 'Accept' } ]
+508 verbose etag https://registry.npmjs.org/grunt-contrib-jshint from cache
+509 silly addNameRange number 2 { name: 'grunt-contrib-htmlmin',
+509 silly addNameRange   range: '>=0.3.0 <0.4.0',
+509 silly addNameRange   hasData: true }
+510 silly addNameRange versions [ 'grunt-contrib-htmlmin',
+510 silly addNameRange   [ '0.1.0',
+510 silly addNameRange     '0.1.1',
+510 silly addNameRange     '0.1.2',
+510 silly addNameRange     '0.1.3',
+510 silly addNameRange     '0.1.1-rc7',
+510 silly addNameRange     '0.2.0',
+510 silly addNameRange     '0.3.0',
+510 silly addNameRange     '0.4.0' ] ]
+511 verbose addNamed grunt-contrib-htmlmin@0.3.0
+512 silly addNamed semver.valid 0.3.0
+513 silly addNamed semver.validRange 0.3.0
+514 silly addNameRange number 2 { name: 'grunt-contrib-jshint',
+514 silly addNameRange   range: '>=0.10.0 <0.11.0',
+514 silly addNameRange   hasData: true }
+515 silly addNameRange versions [ 'grunt-contrib-jshint',
+515 silly addNameRange   [ '0.1.0',
+515 silly addNameRange     '0.1.1',
+515 silly addNameRange     '0.2.0',
+515 silly addNameRange     '0.3.0',
+515 silly addNameRange     '0.4.0',
+515 silly addNameRange     '0.4.1',
+515 silly addNameRange     '0.4.2',
+515 silly addNameRange     '0.4.3',
+515 silly addNameRange     '0.5.0',
+515 silly addNameRange     '0.5.1',
+515 silly addNameRange     '0.5.2',
+515 silly addNameRange     '0.5.3',
+515 silly addNameRange     '0.5.4',
+515 silly addNameRange     '0.6.0',
+515 silly addNameRange     '0.6.1',
+515 silly addNameRange     '0.6.2',
+515 silly addNameRange     '0.6.3',
+515 silly addNameRange     '0.6.4',
+515 silly addNameRange     '0.6.5',
+515 silly addNameRange     '0.7.0',
+515 silly addNameRange     '0.7.1',
+515 silly addNameRange     '0.7.2',
+515 silly addNameRange     '0.8.0',
+515 silly addNameRange     '0.9.0',
+515 silly addNameRange     '0.9.1',
+515 silly addNameRange     '0.9.2',
+515 silly addNameRange     '0.10.0',
+515 silly addNameRange     '0.11.0',
+515 silly addNameRange     '0.11.1',
+515 silly addNameRange     '0.11.2',
+515 silly addNameRange     '0.1.1-rc5',
+515 silly addNameRange     '0.1.1-rc6' ] ]
+516 verbose addNamed grunt-contrib-jshint@0.10.0
+517 silly addNamed semver.valid 0.10.0
+518 silly addNamed semver.validRange 0.10.0
+519 http 304 https://registry.npmjs.org/grunt-contrib-watch
+520 silly registry.get cb [ 304,
+520 silly registry.get   { date: 'Thu, 23 Apr 2015 19:11:17 GMT',
+520 silly registry.get     via: '1.1 varnish',
+520 silly registry.get     'last-modified': 'Thu, 23 Apr 2015 19:11:17 GMT',
+520 silly registry.get     'cache-control': 'max-age=60',
+520 silly registry.get     etag: '"23RZQQ0Q2287VE2MWQ6ZU9EXO"',
+520 silly registry.get     age: '19',
+520 silly registry.get     connection: 'keep-alive',
+520 silly registry.get     'x-served-by': 'cache-atl6227-ATL',
+520 silly registry.get     'x-cache': 'HIT',
+520 silly registry.get     'x-cache-hits': '1',
+520 silly registry.get     'x-timer': 'S1429816277.715190,VS0,VE1',
+520 silly registry.get     vary: 'Accept' } ]
+521 verbose etag https://registry.npmjs.org/grunt-contrib-watch from cache
+522 silly addNameRange number 2 { name: 'grunt-contrib-watch',
+522 silly addNameRange   range: '>=0.6.1 <0.7.0',
+522 silly addNameRange   hasData: true }
+523 silly addNameRange versions [ 'grunt-contrib-watch',
+523 silly addNameRange   [ '0.1.0',
+523 silly addNameRange     '0.1.1',
+523 silly addNameRange     '0.1.2',
+523 silly addNameRange     '0.1.3',
+523 silly addNameRange     '0.1.4',
+523 silly addNameRange     '0.2.0',
+523 silly addNameRange     '0.3.0',
+523 silly addNameRange     '0.3.1',
+523 silly addNameRange     '0.4.0',
+523 silly addNameRange     '0.4.1',
+523 silly addNameRange     '0.4.2',
+523 silly addNameRange     '0.4.3',
+523 silly addNameRange     '0.4.4',
+523 silly addNameRange     '0.5.0',
+523 silly addNameRange     '0.5.1',
+523 silly addNameRange     '0.5.2',
+523 silly addNameRange     '0.5.3',
+523 silly addNameRange     '0.6.0',
+523 silly addNameRange     '0.6.1',
+523 silly addNameRange     '0.2.0-a',
+523 silly addNameRange     '0.2.0-rc5',
+523 silly addNameRange     '0.2.0-rc7' ] ]
+524 verbose addNamed grunt-contrib-watch@0.6.1
+525 silly addNamed semver.valid 0.6.1
+526 silly addNamed semver.validRange 0.6.1
+527 http 304 https://registry.npmjs.org/grunt-mocha
+528 silly registry.get cb [ 304,
+528 silly registry.get   { date: 'Thu, 23 Apr 2015 19:11:17 GMT',
+528 silly registry.get     via: '1.1 varnish',
+528 silly registry.get     'last-modified': 'Thu, 23 Apr 2015 19:11:17 GMT',
+528 silly registry.get     'cache-control': 'max-age=60',
+528 silly registry.get     etag: '"DVGJW6H7D8TZZA6PM09U5JXKB"',
+528 silly registry.get     age: '1',
+528 silly registry.get     connection: 'keep-alive',
+528 silly registry.get     'x-served-by': 'cache-atl6224-ATL',
+528 silly registry.get     'x-cache': 'HIT',
+528 silly registry.get     'x-cache-hits': '1',
+528 silly registry.get     'x-timer': 'S1429816277.732702,VS0,VE0',
+528 silly registry.get     vary: 'Accept' } ]
+529 verbose etag https://registry.npmjs.org/grunt-mocha from cache
+530 http 304 https://registry.npmjs.org/grunt-newer
+531 silly registry.get cb [ 304,
+531 silly registry.get   { date: 'Thu, 23 Apr 2015 19:11:17 GMT',
+531 silly registry.get     via: '1.1 varnish',
+531 silly registry.get     'last-modified': 'Thu, 23 Apr 2015 19:11:17 GMT',
+531 silly registry.get     'cache-control': 'max-age=60',
+531 silly registry.get     etag: '"DCX7PDGVC1XPH7THDYHRX6QK1"',
+531 silly registry.get     age: '9',
+531 silly registry.get     connection: 'keep-alive',
+531 silly registry.get     'x-served-by': 'cache-atl6225-ATL',
+531 silly registry.get     'x-cache': 'HIT',
+531 silly registry.get     'x-cache-hits': '1',
+531 silly registry.get     'x-timer': 'S1429816277.736321,VS0,VE0',
+531 silly registry.get     vary: 'Accept' } ]
+532 verbose etag https://registry.npmjs.org/grunt-newer from cache
+533 silly addNameRange number 2 { name: 'grunt-mocha', range: '>=0.4.10 <0.5.0', hasData: true }
+534 silly addNameRange versions [ 'grunt-mocha',
+534 silly addNameRange   [ '0.1.0',
+534 silly addNameRange     '0.1.1',
+534 silly addNameRange     '0.1.2',
+534 silly addNameRange     '0.1.3',
+534 silly addNameRange     '0.1.4',
+534 silly addNameRange     '0.1.5',
+534 silly addNameRange     '0.1.6',
+534 silly addNameRange     '0.1.7',
+534 silly addNameRange     '0.2.0',
+534 silly addNameRange     '0.2.1',
+534 silly addNameRange     '0.2.2',
+534 silly addNameRange     '0.2.3',
+534 silly addNameRange     '0.3.0',
+534 silly addNameRange     '0.3.1',
+534 silly addNameRange     '0.3.2',
+534 silly addNameRange     '0.3.3',
+534 silly addNameRange     '0.3.4',
+534 silly addNameRange     '0.4.0',
+534 silly addNameRange     '0.4.1',
+534 silly addNameRange     '0.4.4',
+534 silly addNameRange     '0.4.5',
+534 silly addNameRange     '0.4.6',
+534 silly addNameRange     '0.4.7',
+534 silly addNameRange     '0.4.8',
+534 silly addNameRange     '0.4.9',
+534 silly addNameRange     '0.4.10',
+534 silly addNameRange     '0.4.11',
+534 silly addNameRange     '0.4.12' ] ]
+535 verbose addNamed grunt-mocha@0.4.12
+536 silly addNamed semver.valid 0.4.12
+537 silly addNamed semver.validRange 0.4.12
+538 silly addNameRange number 2 { name: 'grunt-newer', range: '>=0.7.0 <0.8.0', hasData: true }
+539 silly addNameRange versions [ 'grunt-newer',
+539 silly addNameRange   [ '0.1.0',
+539 silly addNameRange     '0.2.0',
+539 silly addNameRange     '0.3.1',
+539 silly addNameRange     '0.4.0',
+539 silly addNameRange     '0.4.1',
+539 silly addNameRange     '0.5.0',
+539 silly addNameRange     '0.5.1',
+539 silly addNameRange     '0.5.2',
+539 silly addNameRange     '0.5.3',
+539 silly addNameRange     '0.5.4',
+539 silly addNameRange     '0.6.0',
+539 silly addNameRange     '0.6.1',
+539 silly addNameRange     '0.7.0',
+539 silly addNameRange     '0.8.0',
+539 silly addNameRange     '1.0.0',
+539 silly addNameRange     '1.1.0' ] ]
+540 verbose addNamed grunt-newer@0.7.0
+541 silly addNamed semver.valid 0.7.0
+542 silly addNamed semver.validRange 0.7.0
+543 http 304 https://registry.npmjs.org/grunt-contrib-uglify
+544 silly registry.get cb [ 304,
+544 silly registry.get   { date: 'Thu, 23 Apr 2015 19:11:17 GMT',
+544 silly registry.get     via: '1.1 varnish',
+544 silly registry.get     'last-modified': 'Thu, 23 Apr 2015 19:11:08 GMT',
+544 silly registry.get     'cache-control': 'max-age=60',
+544 silly registry.get     etag: '"BOFPHII33LR16LIVJAHOQEANM"',
+544 silly registry.get     age: '12',
+544 silly registry.get     connection: 'keep-alive',
+544 silly registry.get     'x-served-by': 'cache-atl6231-ATL',
+544 silly registry.get     'x-cache': 'HIT',
+544 silly registry.get     'x-cache-hits': '2',
+544 silly registry.get     'x-timer': 'S1429816277.747803,VS0,VE0',
+544 silly registry.get     vary: 'Accept' } ]
+545 verbose etag https://registry.npmjs.org/grunt-contrib-uglify from cache
+546 silly addNameRange number 2 { name: 'grunt-contrib-uglify',
+546 silly addNameRange   range: '>=0.5.1 <0.6.0',
+546 silly addNameRange   hasData: true }
+547 silly addNameRange versions [ 'grunt-contrib-uglify',
+547 silly addNameRange   [ '0.1.0',
+547 silly addNameRange     '0.1.1',
+547 silly addNameRange     '0.1.2',
+547 silly addNameRange     '0.2.0',
+547 silly addNameRange     '0.2.1',
+547 silly addNameRange     '0.2.2',
+547 silly addNameRange     '0.2.3',
+547 silly addNameRange     '0.2.4',
+547 silly addNameRange     '0.2.5',
+547 silly addNameRange     '0.2.6',
+547 silly addNameRange     '0.2.7',
+547 silly addNameRange     '0.3.0',
+547 silly addNameRange     '0.3.1',
+547 silly addNameRange     '0.1.1-rc5',
+547 silly addNameRange     '0.1.1-rc6',
+547 silly addNameRange     '0.3.2',
+547 silly addNameRange     '0.3.3',
+547 silly addNameRange     '0.4.0',
+547 silly addNameRange     '0.5.0',
+547 silly addNameRange     '0.4.1',
+547 silly addNameRange     '0.5.1',
+547 silly addNameRange     '0.6.0',
+547 silly addNameRange     '0.7.0',
+547 silly addNameRange     '0.8.0',
+547 silly addNameRange     '0.8.1',
+547 silly addNameRange     '0.9.0',
+547 silly addNameRange     '0.9.1' ] ]
+548 verbose addNamed grunt-contrib-uglify@0.5.1
+549 silly addNamed semver.valid 0.5.1
+550 silly addNamed semver.validRange 0.5.1
+551 http 304 https://registry.npmjs.org/grunt-rev
+552 silly registry.get cb [ 304,
+552 silly registry.get   { date: 'Thu, 23 Apr 2015 19:11:17 GMT',
+552 silly registry.get     via: '1.1 varnish',
+552 silly registry.get     'last-modified': 'Thu, 23 Apr 2015 19:11:17 GMT',
+552 silly registry.get     'cache-control': 'max-age=60',
+552 silly registry.get     etag: '"EEHOQDS1MVIASBK09VRULD810"',
+552 silly registry.get     age: '6',
+552 silly registry.get     connection: 'keep-alive',
+552 silly registry.get     'x-served-by': 'cache-atl6227-ATL',
+552 silly registry.get     'x-cache': 'HIT',
+552 silly registry.get     'x-cache-hits': '1',
+552 silly registry.get     'x-timer': 'S1429816277.766727,VS0,VE0',
+552 silly registry.get     vary: 'Accept' } ]
+553 verbose etag https://registry.npmjs.org/grunt-rev from cache
+554 http 304 https://registry.npmjs.org/grunt-contrib-imagemin
+555 silly registry.get cb [ 304,
+555 silly registry.get   { date: 'Thu, 23 Apr 2015 19:11:17 GMT',
+555 silly registry.get     via: '1.1 varnish',
+555 silly registry.get     'last-modified': 'Thu, 23 Apr 2015 19:11:17 GMT',
+555 silly registry.get     'cache-control': 'max-age=60',
+555 silly registry.get     etag: '"BDMVPPXRHTPP818DXPV43IIMX"',
+555 silly registry.get     age: '0',
+555 silly registry.get     connection: 'keep-alive',
+555 silly registry.get     'x-served-by': 'cache-atl6227-ATL',
+555 silly registry.get     'x-cache': 'HIT',
+555 silly registry.get     'x-cache-hits': '1',
+555 silly registry.get     'x-timer': 'S1429816277.691302,VS0,VE79',
+555 silly registry.get     vary: 'Accept' } ]
+556 verbose etag https://registry.npmjs.org/grunt-contrib-imagemin from cache
+557 silly addNameRange number 2 { name: 'grunt-rev', range: '>=0.1.0 <0.2.0', hasData: true }
+558 silly addNameRange versions [ 'grunt-rev', [ '0.1.0' ] ]
+559 verbose addNamed grunt-rev@0.1.0
+560 silly addNamed semver.valid 0.1.0
+561 silly addNamed semver.validRange 0.1.0
+562 silly addNameRange number 2 { name: 'grunt-contrib-imagemin',
+562 silly addNameRange   range: '>=0.8.0 <0.9.0',
+562 silly addNameRange   hasData: true }
+563 silly addNameRange versions [ 'grunt-contrib-imagemin',
+563 silly addNameRange   [ '0.1.0',
+563 silly addNameRange     '0.1.1',
+563 silly addNameRange     '0.1.2',
+563 silly addNameRange     '0.1.3',
+563 silly addNameRange     '0.1.4',
+563 silly addNameRange     '0.1.1-rc7',
+563 silly addNameRange     '0.1.1-rc8',
+563 silly addNameRange     '0.2.0',
+563 silly addNameRange     '0.2.1',
+563 silly addNameRange     '0.3.0',
+563 silly addNameRange     '0.4.0',
+563 silly addNameRange     '0.4.1',
+563 silly addNameRange     '0.5.0',
+563 silly addNameRange     '0.6.0',
+563 silly addNameRange     '0.6.1',
+563 silly addNameRange     '0.7.0',
+563 silly addNameRange     '0.7.1',
+563 silly addNameRange     '0.7.2',
+563 silly addNameRange     '0.8.0',
+563 silly addNameRange     '0.8.1',
+563 silly addNameRange     '0.9.0',
+563 silly addNameRange     '0.9.1',
+563 silly addNameRange     '0.9.2',
+563 silly addNameRange     '0.9.3',
+563 silly addNameRange     '0.9.4' ] ]
+564 verbose addNamed grunt-contrib-imagemin@0.8.1
+565 silly addNamed semver.valid 0.8.1
+566 silly addNamed semver.validRange 0.8.1
+567 http 304 https://registry.npmjs.org/grunt-svgmin
+568 silly registry.get cb [ 304,
+568 silly registry.get   { date: 'Thu, 23 Apr 2015 19:11:17 GMT',
+568 silly registry.get     via: '1.1 varnish',
+568 silly registry.get     'last-modified': 'Thu, 23 Apr 2015 19:11:17 GMT',
+568 silly registry.get     'cache-control': 'max-age=60',
+568 silly registry.get     etag: '"2W77CN55VIF2ET6QKXHUJV0SV"',
+568 silly registry.get     age: '8',
+568 silly registry.get     connection: 'keep-alive',
+568 silly registry.get     'x-served-by': 'cache-atl6224-ATL',
+568 silly registry.get     'x-cache': 'HIT',
+568 silly registry.get     'x-cache-hits': '1',
+568 silly registry.get     'x-timer': 'S1429816277.780865,VS0,VE0',
+568 silly registry.get     vary: 'Accept' } ]
+569 verbose etag https://registry.npmjs.org/grunt-svgmin from cache
+570 http 304 https://registry.npmjs.org/grunt-usemin
+571 silly registry.get cb [ 304,
+571 silly registry.get   { date: 'Thu, 23 Apr 2015 19:11:17 GMT',
+571 silly registry.get     via: '1.1 varnish',
+571 silly registry.get     'last-modified': 'Thu, 23 Apr 2015 19:11:17 GMT',
+571 silly registry.get     'cache-control': 'max-age=60',
+571 silly registry.get     etag: '"18FZAY48R7UDDU5D6JQKDU4BE"',
+571 silly registry.get     age: '31',
+571 silly registry.get     connection: 'keep-alive',
+571 silly registry.get     'x-served-by': 'cache-atl6225-ATL',
+571 silly registry.get     'x-cache': 'HIT',
+571 silly registry.get     'x-cache-hits': '1',
+571 silly registry.get     'x-timer': 'S1429816277.784400,VS0,VE1',
+571 silly registry.get     vary: 'Accept' } ]
+572 verbose etag https://registry.npmjs.org/grunt-usemin from cache
+573 http 304 https://registry.npmjs.org/grunt-wiredep
+574 silly registry.get cb [ 304,
+574 silly registry.get   { date: 'Thu, 23 Apr 2015 19:11:17 GMT',
+574 silly registry.get     via: '1.1 varnish',
+574 silly registry.get     'last-modified': 'Thu, 23 Apr 2015 19:11:17 GMT',
+574 silly registry.get     'cache-control': 'max-age=60',
+574 silly registry.get     etag: '"EF74FCKTXFTXPVW3K28EU6F6P"',
+574 silly registry.get     age: '29',
+574 silly registry.get     connection: 'keep-alive',
+574 silly registry.get     'x-served-by': 'cache-atl6231-ATL',
+574 silly registry.get     'x-cache': 'HIT',
+574 silly registry.get     'x-cache-hits': '1',
+574 silly registry.get     'x-timer': 'S1429816277.795740,VS0,VE0',
+574 silly registry.get     vary: 'Accept' } ]
+575 verbose etag https://registry.npmjs.org/grunt-wiredep from cache
+576 silly addNameRange number 2 { name: 'grunt-svgmin', range: '>=0.4.0 <0.5.0', hasData: true }
+577 silly addNameRange versions [ 'grunt-svgmin',
+577 silly addNameRange   [ '0.1.0',
+577 silly addNameRange     '0.2.0',
+577 silly addNameRange     '0.2.1',
+577 silly addNameRange     '0.3.0',
+577 silly addNameRange     '0.3.1',
+577 silly addNameRange     '0.4.0',
+577 silly addNameRange     '1.0.0',
+577 silly addNameRange     '2.0.0',
+577 silly addNameRange     '2.0.1' ] ]
+578 verbose addNamed grunt-svgmin@0.4.0
+579 silly addNamed semver.valid 0.4.0
+580 silly addNamed semver.validRange 0.4.0
+581 silly addNameRange number 2 { name: 'grunt-usemin', range: '>=2.3.0 <3.0.0', hasData: true }
+582 silly addNameRange versions [ 'grunt-usemin',
+582 silly addNameRange   [ '0.1.0',
+582 silly addNameRange     '0.1.1',
+582 silly addNameRange     '0.1.2',
+582 silly addNameRange     '0.1.5',
+582 silly addNameRange     '0.1.6',
+582 silly addNameRange     '0.1.7',
+582 silly addNameRange     '0.1.8',
+582 silly addNameRange     '0.1.9',
+582 silly addNameRange     '0.1.4',
+582 silly addNameRange     '0.1.10',
+582 silly addNameRange     '0.1.11',
+582 silly addNameRange     '0.1.12',
+582 silly addNameRange     '0.1.13',
+582 silly addNameRange     '2.0.0',
+582 silly addNameRange     '2.0.1',
+582 silly addNameRange     '2.0.2',
+582 silly addNameRange     '2.1.0',
+582 silly addNameRange     '2.1.1',
+582 silly addNameRange     '2.2.0',
+582 silly addNameRange     '2.3.0',
+582 silly addNameRange     '2.4.0',
+582 silly addNameRange     '2.5.0',
+582 silly addNameRange     '2.5.1',
+582 silly addNameRange     '2.6.0',
+582 silly addNameRange     '2.6.1',
+582 silly addNameRange     '2.6.2',
+582 silly addNameRange     '3.0.0' ] ]
+583 verbose addNamed grunt-usemin@2.6.2
+584 silly addNamed semver.valid 2.6.2
+585 silly addNamed semver.validRange 2.6.2
+586 silly addNameRange number 2 { name: 'grunt-wiredep', range: '>=1.7.0 <2.0.0', hasData: true }
+587 silly addNameRange versions [ 'grunt-wiredep',
+587 silly addNameRange   [ '1.7.0', '1.7.1', '1.8.0', '1.9.0', '2.0.0' ] ]
+588 verbose addNamed grunt-wiredep@1.9.0
+589 silly addNamed semver.valid 1.9.0
+590 silly addNamed semver.validRange 1.9.0
+591 http 304 https://registry.npmjs.org/jshint-stylish
+592 silly registry.get cb [ 304,
+592 silly registry.get   { date: 'Thu, 23 Apr 2015 19:11:17 GMT',
+592 silly registry.get     via: '1.1 varnish',
+592 silly registry.get     'last-modified': 'Thu, 23 Apr 2015 19:11:17 GMT',
+592 silly registry.get     'cache-control': 'max-age=60',
+592 silly registry.get     etag: '"7CG270BLDHKJV77OA2K8ELH6I"',
+592 silly registry.get     age: '9',
+592 silly registry.get     connection: 'keep-alive',
+592 silly registry.get     'x-served-by': 'cache-atl6227-ATL',
+592 silly registry.get     'x-cache': 'HIT',
+592 silly registry.get     'x-cache-hits': '1',
+592 silly registry.get     'x-timer': 'S1429816277.818725,VS0,VE1',
+592 silly registry.get     vary: 'Accept' } ]
+593 verbose etag https://registry.npmjs.org/jshint-stylish from cache
+594 http 304 https://registry.npmjs.org/load-grunt-tasks
+595 silly registry.get cb [ 304,
+595 silly registry.get   { date: 'Thu, 23 Apr 2015 19:11:17 GMT',
+595 silly registry.get     via: '1.1 varnish',
+595 silly registry.get     'last-modified': 'Thu, 23 Apr 2015 19:11:17 GMT',
+595 silly registry.get     'cache-control': 'max-age=60',
+595 silly registry.get     etag: '"1UP9IANIM2AMVASEUI0S47595"',
+595 silly registry.get     age: '32',
+595 silly registry.get     connection: 'keep-alive',
+595 silly registry.get     'x-served-by': 'cache-atl6227-ATL',
+595 silly registry.get     'x-cache': 'HIT',
+595 silly registry.get     'x-cache-hits': '1',
+595 silly registry.get     'x-timer': 'S1429816277.823922,VS0,VE1',
+595 silly registry.get     vary: 'Accept' } ]
+596 verbose etag https://registry.npmjs.org/load-grunt-tasks from cache
+597 http 304 https://registry.npmjs.org/time-grunt
+598 silly registry.get cb [ 304,
+598 silly registry.get   { date: 'Thu, 23 Apr 2015 19:11:17 GMT',
+598 silly registry.get     via: '1.1 varnish',
+598 silly registry.get     'last-modified': 'Thu, 23 Apr 2015 19:11:17 GMT',
+598 silly registry.get     'cache-control': 'max-age=60',
+598 silly registry.get     etag: '"BZWT2LK0RG6GAH36W612K3412"',
+598 silly registry.get     age: '6',
+598 silly registry.get     connection: 'keep-alive',
+598 silly registry.get     'x-served-by': 'cache-atl6224-ATL',
+598 silly registry.get     'x-cache': 'HIT',
+598 silly registry.get     'x-cache-hits': '1',
+598 silly registry.get     'x-timer': 'S1429816277.834647,VS0,VE0',
+598 silly registry.get     vary: 'Accept' } ]
+599 verbose etag https://registry.npmjs.org/time-grunt from cache
+600 silly addNameRange number 2 { name: 'jshint-stylish',
+600 silly addNameRange   range: '>=0.4.0 <0.5.0',
+600 silly addNameRange   hasData: true }
+601 silly addNameRange versions [ 'jshint-stylish',
+601 silly addNameRange   [ '0.1.0',
+601 silly addNameRange     '0.1.1',
+601 silly addNameRange     '0.1.2',
+601 silly addNameRange     '0.1.3',
+601 silly addNameRange     '0.1.4',
+601 silly addNameRange     '0.1.5',
+601 silly addNameRange     '0.2.0',
+601 silly addNameRange     '0.3.0',
+601 silly addNameRange     '0.4.0',
+601 silly addNameRange     '1.0.0',
+601 silly addNameRange     '1.0.1' ] ]
+602 verbose addNamed jshint-stylish@0.4.0
+603 silly addNamed semver.valid 0.4.0
+604 silly addNamed semver.validRange 0.4.0
+605 silly addNameRange number 2 { name: 'load-grunt-tasks',
+605 silly addNameRange   range: '>=0.4.0 <0.5.0',
+605 silly addNameRange   hasData: true }
+606 silly addNameRange versions [ 'load-grunt-tasks',
+606 silly addNameRange   [ '0.1.0',
+606 silly addNameRange     '0.1.1',
+606 silly addNameRange     '0.1.2',
+606 silly addNameRange     '0.1.3',
+606 silly addNameRange     '0.2.0',
+606 silly addNameRange     '0.2.1',
+606 silly addNameRange     '0.3.0',
+606 silly addNameRange     '0.4.0',
+606 silly addNameRange     '0.5.0',
+606 silly addNameRange     '0.6.0',
+606 silly addNameRange     '1.0.0',
+606 silly addNameRange     '2.0.0',
+606 silly addNameRange     '3.0.0',
+606 silly addNameRange     '3.1.0' ] ]
+607 verbose addNamed load-grunt-tasks@0.4.0
+608 silly addNamed semver.valid 0.4.0
+609 silly addNamed semver.validRange 0.4.0
+610 silly addNameRange number 2 { name: 'time-grunt', range: '>=0.4.0 <0.5.0', hasData: true }
+611 silly addNameRange versions [ 'time-grunt',
+611 silly addNameRange   [ '0.1.0',
+611 silly addNameRange     '0.1.1',
+611 silly addNameRange     '0.1.2',
+611 silly addNameRange     '0.2.0',
+611 silly addNameRange     '0.2.1',
+611 silly addNameRange     '0.2.2',
+611 silly addNameRange     '0.2.3',
+611 silly addNameRange     '0.2.4',
+611 silly addNameRange     '0.2.5',
+611 silly addNameRange     '0.2.6',
+611 silly addNameRange     '0.2.7',
+611 silly addNameRange     '0.2.8',
+611 silly addNameRange     '0.2.9',
+611 silly addNameRange     '0.2.10',
+611 silly addNameRange     '0.3.1',
+611 silly addNameRange     '0.3.2',
+611 silly addNameRange     '0.4.0',
+611 silly addNameRange     '1.0.0',
+611 silly addNameRange     '1.1.0',
+611 silly addNameRange     '1.1.1' ] ]
+612 verbose addNamed time-grunt@0.4.0
+613 silly addNamed semver.valid 0.4.0
+614 silly addNamed semver.validRange 0.4.0
+615 http 304 https://registry.npmjs.org/grunt
+616 silly registry.get cb [ 304,
+616 silly registry.get   { date: 'Thu, 23 Apr 2015 19:11:17 GMT',
+616 silly registry.get     via: '1.1 varnish',
+616 silly registry.get     'last-modified': 'Thu, 23 Apr 2015 19:11:03 GMT',
+616 silly registry.get     'cache-control': 'max-age=60',
+616 silly registry.get     etag: '"5PQV26W7R1ZQ79WGH20N8F8PH"',
+616 silly registry.get     age: '25',
+616 silly registry.get     connection: 'keep-alive',
+616 silly registry.get     'x-served-by': 'cache-atl6231-ATL',
+616 silly registry.get     'x-cache': 'HIT',
+616 silly registry.get     'x-cache-hits': '3',
+616 silly registry.get     'x-timer': 'S1429816277.845618,VS0,VE0',
+616 silly registry.get     vary: 'Accept' } ]
+617 verbose etag https://registry.npmjs.org/grunt from cache
+618 silly addNameRange number 2 { name: 'grunt', range: '>=0.4.5 <0.5.0', hasData: true }
+619 silly addNameRange versions [ 'grunt',
+619 silly addNameRange   [ '0.1.0',
+619 silly addNameRange     '0.1.1',
+619 silly addNameRange     '0.1.2',
+619 silly addNameRange     '0.2.0',
+619 silly addNameRange     '0.2.1',
+619 silly addNameRange     '0.2.2',
+619 silly addNameRange     '0.2.3',
+619 silly addNameRange     '0.2.4',
+619 silly addNameRange     '0.2.5',
+619 silly addNameRange     '0.2.6',
+619 silly addNameRange     '0.2.7',
+619 silly addNameRange     '0.2.8',
+619 silly addNameRange     '0.2.9',
+619 silly addNameRange     '0.2.10',
+619 silly addNameRange     '0.2.11',
+619 silly addNameRange     '0.2.12',
+619 silly addNameRange     '0.2.13',
+619 silly addNameRange     '0.2.14',
+619 silly addNameRange     '0.2.15',
+619 silly addNameRange     '0.3.0',
+619 silly addNameRange     '0.3.1',
+619 silly addNameRange     '0.3.2',
+619 silly addNameRange     '0.3.3',
+619 silly addNameRange     '0.3.4',
+619 silly addNameRange     '0.3.5',
+619 silly addNameRange     '0.3.6',
+619 silly addNameRange     '0.3.7',
+619 silly addNameRange     '0.3.8',
+619 silly addNameRange     '0.3.9',
+619 silly addNameRange     '0.3.10',
+619 silly addNameRange     '0.3.11',
+619 silly addNameRange     '0.3.12',
+619 silly addNameRange     '0.3.13',
+619 silly addNameRange     '0.3.14',
+619 silly addNameRange     '0.3.15',
+619 silly addNameRange     '0.3.16',
+619 silly addNameRange     '0.3.17',
+619 silly addNameRange     '0.4.0',
+619 silly addNameRange     '0.4.1',
+619 silly addNameRange     '0.4.2',
+619 silly addNameRange     '0.4.3',
+619 silly addNameRange     '0.4.4',
+619 silly addNameRange     '0.4.5',
+619 silly addNameRange     '0.3.13-a',
+619 silly addNameRange     '0.4.0-a',
+619 silly addNameRange     '0.4.0-rc1',
+619 silly addNameRange     '0.4.0-rc2',
+619 silly addNameRange     '0.4.0-rc3',
+619 silly addNameRange     '0.4.0-rc4',
+619 silly addNameRange     '0.4.0-rc5',
+619 silly addNameRange     '0.4.0-rc6',
+619 silly addNameRange     '0.4.0-rc7',
+619 silly addNameRange     '0.4.0-rc8' ] ]
+620 verbose addNamed grunt@0.4.5
+621 silly addNamed semver.valid 0.4.5
+622 silly addNamed semver.validRange 0.4.5
+623 http 304 https://registry.npmjs.org/apache-server-configs
+624 silly registry.get cb [ 304,
+624 silly registry.get   { date: 'Thu, 23 Apr 2015 19:11:17 GMT',
+624 silly registry.get     via: '1.1 varnish',
+624 silly registry.get     'last-modified': 'Thu, 23 Apr 2015 19:11:17 GMT',
+624 silly registry.get     'cache-control': 'max-age=60',
+624 silly registry.get     etag: '"16UFHMKJSG2059URK6AIJ83A4"',
+624 silly registry.get     age: '0',
+624 silly registry.get     connection: 'keep-alive',
+624 silly registry.get     'x-served-by': 'cache-atl6225-ATL',
+624 silly registry.get     'x-cache': 'MISS',
+624 silly registry.get     'x-cache-hits': '0',
+624 silly registry.get     'x-timer': 'S1429816277.838328,VS0,VE112',
+624 silly registry.get     vary: 'Accept' } ]
+625 verbose etag https://registry.npmjs.org/apache-server-configs from cache
+626 silly addNameRange number 2 { name: 'apache-server-configs',
+626 silly addNameRange   range: '>=2.7.1 <3.0.0',
+626 silly addNameRange   hasData: true }
+627 silly addNameRange versions [ 'apache-server-configs',
+627 silly addNameRange   [ '2.7.0',
+627 silly addNameRange     '2.7.1',
+627 silly addNameRange     '2.8.0',
+627 silly addNameRange     '2.9.0',
+627 silly addNameRange     '2.10.0',
+627 silly addNameRange     '2.11.0',
+627 silly addNameRange     '2.12.0',
+627 silly addNameRange     '2.13.0',
+627 silly addNameRange     '2.14.0' ] ]
+628 verbose addNamed apache-server-configs@2.14.0
+629 silly addNamed semver.valid 2.14.0
+630 silly addNamed semver.validRange 2.14.0
+631 silly install resolved [ { name: 'grunt-autoprefixer',
+631 silly install resolved     version: '1.0.1',
+631 silly install resolved     description: 'Parse CSS and add vendor-prefixed CSS properties using the Can I Use database. Based on Autoprefixer.',
+631 silly install resolved     author: { name: 'Dmitry Nikitenko', email: 'dima.nikitenko@gmail.com' },
+631 silly install resolved     repository:
+631 silly install resolved      { type: 'git',
+631 silly install resolved        url: 'https://github.com/nDmitry/grunt-autoprefixer' },
+631 silly install resolved     license: 'MIT',
+631 silly install resolved     engines: { node: '>= 0.10.0' },
+631 silly install resolved     scripts: { test: 'grunt test' },
+631 silly install resolved     keywords: [ 'gruntplugin', 'css', 'postprocessor', 'prefix', 'autoprefixer' ],
+631 silly install resolved     files: [ 'tasks', 'LICENSE' ],
+631 silly install resolved     dependencies:
+631 silly install resolved      { 'autoprefixer-core': '^3.0.0',
+631 silly install resolved        diff: '~1.0.8',
+631 silly install resolved        chalk: '~0.5.0' },
+631 silly install resolved     devDependencies:
+631 silly install resolved      { grunt: '~0.4.4',
+631 silly install resolved        'grunt-contrib-jshint': '~0.10.0',
+631 silly install resolved        'grunt-contrib-clean': '~0.6.0',
+631 silly install resolved        'grunt-contrib-nodeunit': '~0.4.0',
+631 silly install resolved        'grunt-contrib-copy': '~0.5.0',
+631 silly install resolved        'load-grunt-tasks': '~0.6.0',
+631 silly install resolved        'time-grunt': '~1.0.0' },
+631 silly install resolved     peerDependencies: { grunt: '~0.4.2' },
+631 silly install resolved     gitHead: '8b63bc6b9ce2de94d8fcde53bbffcb58d9008fde',
+631 silly install resolved     bugs: { url: 'https://github.com/nDmitry/grunt-autoprefixer/issues' },
+631 silly install resolved     homepage: 'https://github.com/nDmitry/grunt-autoprefixer',
+631 silly install resolved     _id: 'grunt-autoprefixer@1.0.1',
+631 silly install resolved     _shasum: '4d0db047e4a7488d71e5bda98a18435aee0b4446',
+631 silly install resolved     _from: 'grunt-autoprefixer@>=1.0.0 <2.0.0',
+631 silly install resolved     _npmVersion: '1.4.23',
+631 silly install resolved     _npmUser: { name: 'weiss', email: 'dima.nikitenko@gmail.com' },
+631 silly install resolved     maintainers: [ [Object] ],
+631 silly install resolved     dist:
+631 silly install resolved      { shasum: '4d0db047e4a7488d71e5bda98a18435aee0b4446',
+631 silly install resolved        tarball: 'http://registry.npmjs.org/grunt-autoprefixer/-/grunt-autoprefixer-1.0.1.tgz' },
+631 silly install resolved     directories: {},
+631 silly install resolved     _resolved: 'https://registry.npmjs.org/grunt-autoprefixer/-/grunt-autoprefixer-1.0.1.tgz',
+631 silly install resolved     readme: 'ERROR: No README data found!' },
+631 silly install resolved   { name: 'grunt-concurrent',
+631 silly install resolved     version: '0.5.0',
+631 silly install resolved     description: 'Run grunt tasks concurrently',
+631 silly install resolved     keywords:
+631 silly install resolved      [ 'gruntplugin',
+631 silly install resolved        'concurrent',
+631 silly install resolved        'parallel',
+631 silly install resolved        'simultaneous',
+631 silly install resolved        'optimize',
+631 silly install resolved        'speed' ],
+631 silly install resolved     author:
+631 silly install resolved      { name: 'Sindre Sorhus',
+631 silly install resolved        email: 'sindresorhus@gmail.com',
+631 silly install resolved        url: 'http://sindresorhus.com' },
+631 silly install resolved     repository:
+631 silly install resolved      { type: 'git',
+631 silly install resolved        url: 'git://github.com/sindresorhus/grunt-concurrent' },
+631 silly install resolved     scripts: { test: 'npm install nodemon -g && grunt' },
+631 silly install resolved     dependencies: { async: '~0.2.9', 'pad-stdio': '^0.1.0' },
+631 silly install resolved     devDependencies:
+631 silly install resolved      { grunt: '~0.4.1',
+631 silly install resolved        'grunt-contrib-clean': '~0.5.0',
+631 silly install resolved        'grunt-simple-mocha': '~0.4.0',
+631 silly install resolved        'grunt-contrib-watch': '~0.5.3',
+631 silly install resolved        'grunt-nodemon': '^0.2.0' },
+631 silly install resolved     peerDependencies: { grunt: '~0.4.0' },
+631 silly install resolved     engines: { node: '>=0.10.0' },
+631 silly install resolved     licenses: { type: 'MIT' },
+631 silly install resolved     bugs: { url: 'https://github.com/sindresorhus/grunt-concurrent/issues' },
+631 silly install resolved     homepage: 'https://github.com/sindresorhus/grunt-concurrent',
+631 silly install resolved     _id: 'grunt-concurrent@0.5.0',
+631 silly install resolved     dist:
+631 silly install resolved      { shasum: '4a519a4c287825f0de0715f73b85d150c750d9f7',
+631 silly install resolved        tarball: 'http://registry.npmjs.org/grunt-concurrent/-/grunt-concurrent-0.5.0.tgz' },
+631 silly install resolved     _from: 'grunt-concurrent@>=0.5.0 <0.6.0',
+631 silly install resolved     _npmVersion: '1.4.4',
+631 silly install resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+631 silly install resolved     maintainers: [ [Object] ],
+631 silly install resolved     directories: {},
+631 silly install resolved     _shasum: '4a519a4c287825f0de0715f73b85d150c750d9f7',
+631 silly install resolved     _resolved: 'https://registry.npmjs.org/grunt-concurrent/-/grunt-concurrent-0.5.0.tgz',
+631 silly install resolved     readme: 'ERROR: No README data found!' },
+631 silly install resolved   { name: 'grunt-contrib-connect',
+631 silly install resolved     description: 'Start a connect web server.',
+631 silly install resolved     version: '0.8.0',
+631 silly install resolved     homepage: 'https://github.com/gruntjs/grunt-contrib-connect',
+631 silly install resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+631 silly install resolved     repository:
+631 silly install resolved      { type: 'git',
+631 silly install resolved        url: 'git://github.com/gruntjs/grunt-contrib-connect.git' },
+631 silly install resolved     bugs: { url: 'https://github.com/gruntjs/grunt-contrib-connect/issues' },
+631 silly install resolved     licenses: [ [Object] ],
+631 silly install resolved     engines: { node: '>= 0.8.0' },
+631 silly install resolved     scripts: { test: 'grunt jshint test' },
+631 silly install resolved     dependencies:
+631 silly install resolved      { connect: '~2.19.5',
+631 silly install resolved        'connect-livereload': '~0.4.0',
+631 silly install resolved        open: '0.0.5',
+631 silly install resolved        portscanner: '~0.2.3',
+631 silly install resolved        async: '~0.9.0' },
+631 silly install resolved     devDependencies:
+631 silly install resolved      { 'grunt-contrib-jshint': '~0.10.0',
+631 silly install resolved        'grunt-contrib-nodeunit': '~0.4.0',
+631 silly install resolved        'grunt-contrib-internal': '~0.4.10',
+631 silly install resolved        grunt: '~0.4.5',
+631 silly install resolved        'grunt-cli': '~0.1.13' },
+631 silly install resolved     peerDependencies: { grunt: '~0.4.0' },
+631 silly install resolved     keywords: [ 'gruntplugin', 'server', 'connect', 'http' ],
+631 silly install resolved     files: [ 'tasks', 'LICENSE-MIT' ],
+631 silly install resolved     _id: 'grunt-contrib-connect@0.8.0',
+631 silly install resolved     dist:
+631 silly install resolved      { shasum: '1f70043e3a473ae8fb7a8acbf929ce104eaf4323',
+631 silly install resolved        tarball: 'http://registry.npmjs.org/grunt-contrib-connect/-/grunt-contrib-connect-0.8.0.tgz' },
+631 silly install resolved     _from: 'grunt-contrib-connect@>=0.8.0 <0.9.0',
+631 silly install resolved     _npmVersion: '1.3.26',
+631 silly install resolved     _npmUser: { name: 'vladikoff', email: 'vlad@vladikoff.com' },
+631 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+631 silly install resolved     directories: {},
+631 silly install resolved     _shasum: '1f70043e3a473ae8fb7a8acbf929ce104eaf4323',
+631 silly install resolved     _resolved: 'https://registry.npmjs.org/grunt-contrib-connect/-/grunt-contrib-connect-0.8.0.tgz',
+631 silly install resolved     readme: 'ERROR: No README data found!' },
+631 silly install resolved   { name: 'grunt-contrib-concat',
+631 silly install resolved     description: 'Concatenate files.',
+631 silly install resolved     version: '0.5.1',
+631 silly install resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+631 silly install resolved     repository:
+631 silly install resolved      { type: 'git',
+631 silly install resolved        url: 'https://github.com/gruntjs/grunt-contrib-concat' },
+631 silly install resolved     licenses: [ [Object] ],
+631 silly install resolved     engines: { node: '>=0.10.0' },
+631 silly install resolved     scripts: { test: 'grunt test' },
+631 silly install resolved     dependencies: { chalk: '^0.5.1', 'source-map': '^0.3.0' },
+631 silly install resolved     devDependencies:
+631 silly install resolved      { grunt: '^0.4.5',
+631 silly install resolved        'grunt-cli': '^0.1.13',
+631 silly install resolved        'grunt-contrib-clean': '^0.6.0',
+631 silly install resolved        'grunt-contrib-internal': '^0.4.2',
+631 silly install resolved        'grunt-contrib-jshint': '^0.11.0',
+631 silly install resolved        'grunt-contrib-nodeunit': '^0.4.0' },
+631 silly install resolved     peerDependencies: { grunt: '>=0.4.0' },
+631 silly install resolved     keywords: [ 'gruntplugin' ],
+631 silly install resolved     files: [ 'tasks' ],
+631 silly install resolved     appveyor_id: 'l42173901ms416km',
+631 silly install resolved     contributors:
+631 silly install resolved      [ [Object],
+631 silly install resolved        [Object],
+631 silly install resolved        [Object],
+631 silly install resolved        [Object],
+631 silly install resolved        [Object],
+631 silly install resolved        [Object],
+631 silly install resolved        [Object],
+631 silly install resolved        [Object],
+631 silly install resolved        [Object],
+631 silly install resolved        [Object],
+631 silly install resolved        [Object],
+631 silly install resolved        [Object],
+631 silly install resolved        [Object],
+631 silly install resolved        [Object],
+631 silly install resolved        [Object],
+631 silly install resolved        [Object],
+631 silly install resolved        [Object],
+631 silly install resolved        [Object],
+631 silly install resolved        [Object] ],
+631 silly install resolved     gitHead: 'd4d97a6a65404351155c04fff9303f3c20d5c02c',
+631 silly install resolved     bugs: { url: 'https://github.com/gruntjs/grunt-contrib-concat/issues' },
+631 silly install resolved     homepage: 'https://github.com/gruntjs/grunt-contrib-concat',
+631 silly install resolved     _id: 'grunt-contrib-concat@0.5.1',
+631 silly install resolved     _shasum: '953c6efdfdfd2c107ab9c85077f2d4b24d31cd49',
+631 silly install resolved     _from: 'grunt-contrib-concat@>=0.5.0 <0.6.0',
+631 silly install resolved     _npmVersion: '1.4.28',
+631 silly install resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+631 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+631 silly install resolved     dist:
+631 silly install resolved      { shasum: '953c6efdfdfd2c107ab9c85077f2d4b24d31cd49',
+631 silly install resolved        tarball: 'http://registry.npmjs.org/grunt-contrib-concat/-/grunt-contrib-concat-0.5.1.tgz' },
+631 silly install resolved     directories: {},
+631 silly install resolved     _resolved: 'https://registry.npmjs.org/grunt-contrib-concat/-/grunt-contrib-concat-0.5.1.tgz',
+631 silly install resolved     readme: 'ERROR: No README data found!' },
+631 silly install resolved   { name: 'grunt-contrib-clean',
+631 silly install resolved     description: 'Clean files and folders.',
+631 silly install resolved     version: '0.6.0',
+631 silly install resolved     homepage: 'https://github.com/gruntjs/grunt-contrib-clean',
+631 silly install resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+631 silly install resolved     repository:
+631 silly install resolved      { type: 'git',
+631 silly install resolved        url: 'git://github.com/gruntjs/grunt-contrib-clean.git' },
+631 silly install resolved     bugs: { url: 'https://github.com/gruntjs/grunt-contrib-clean/issues' },
+631 silly install resolved     licenses: [ [Object] ],
+631 silly install resolved     engines: { node: '>= 0.8.0' },
+631 silly install resolved     scripts: { test: 'grunt test' },
+631 silly install resolved     dependencies: { rimraf: '~2.2.1' },
+631 silly install resolved     devDependencies:
+631 silly install resolved      { 'grunt-contrib-jshint': '~0.10.0',
+631 silly install resolved        'grunt-contrib-nodeunit': '~0.3.3',
+631 silly install resolved        'grunt-contrib-internal': '~0.4.10',
+631 silly install resolved        grunt: '~0.4.0' },
+631 silly install resolved     peerDependencies: { grunt: '~0.4.0' },
+631 silly install resolved     keywords: [ 'gruntplugin' ],
+631 silly install resolved     files: [ 'tasks', 'LICENSE-MIT' ],
+631 silly install resolved     _id: 'grunt-contrib-clean@0.6.0',
+631 silly install resolved     dist:
+631 silly install resolved      { shasum: 'f532dba4b8212674c7c013e146bda6638b9048f6',
+631 silly install resolved        tarball: 'http://registry.npmjs.org/grunt-contrib-clean/-/grunt-contrib-clean-0.6.0.tgz' },
+631 silly install resolved     _from: 'grunt-contrib-clean@>=0.6.0 <0.7.0',
+631 silly install resolved     _npmVersion: '1.3.26',
+631 silly install resolved     _npmUser: { name: 'vladikoff', email: 'vlad@vladikoff.com' },
+631 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+631 silly install resolved     directories: {},
+631 silly install resolved     _shasum: 'f532dba4b8212674c7c013e146bda6638b9048f6',
+631 silly install resolved     _resolved: 'https://registry.npmjs.org/grunt-contrib-clean/-/grunt-contrib-clean-0.6.0.tgz',
+631 silly install resolved     readme: 'ERROR: No README data found!' },
+631 silly install resolved   { name: 'grunt-contrib-copy',
+631 silly install resolved     description: 'Copy files and folders.',
+631 silly install resolved     version: '0.5.0',
+631 silly install resolved     homepage: 'https://github.com/gruntjs/grunt-contrib-copy',
+631 silly install resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+631 silly install resolved     repository:
+631 silly install resolved      { type: 'git',
+631 silly install resolved        url: 'git://github.com/gruntjs/grunt-contrib-copy.git' },
+631 silly install resolved     bugs: { url: 'https://github.com/gruntjs/grunt-contrib-copy/issues' },
+631 silly install resolved     licenses: [ [Object] ],
+631 silly install resolved     engines: { node: '>= 0.8.0' },
+631 silly install resolved     scripts: { test: 'grunt test' },
+631 silly install resolved     devDependencies:
+631 silly install resolved      { 'grunt-contrib-jshint': '~0.6.2',
+631 silly install resolved        'grunt-contrib-nodeunit': '~0.2.0',
+631 silly install resolved        'grunt-contrib-clean': '~0.5.0',
+631 silly install resolved        'grunt-contrib-internal': '~0.4.5',
+631 silly install resolved        grunt: '~0.4.0' },
+631 silly install resolved     peerDependencies: { grunt: '~0.4.0' },
+631 silly install resolved     keywords: [ 'gruntplugin' ],
+631 silly install resolved     files: [ 'tasks', 'LICENSE-MIT' ],
+631 silly install resolved     readme: '# grunt-contrib-copy v0.5.0 [![Build Status](https://travis-ci.org/gruntjs/grunt-contrib-copy.png?branch=master)](https://travis-ci.org/gruntjs/grunt-contrib-copy)\n\n> Copy files and folders.\n\n\n\n## Getting Started\nThis plugin requires Grunt `~0.4.0`\n\nIf you haven\'t used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you\'re familiar with that process, you may install this plugin with this command:\n\n```shell\nnpm install grunt-contrib-copy --save-dev\n```\n\nOnce the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:\n\n```js\ngrunt.loadNpmTasks(\'grunt-contrib-copy\');\n```\n\n*This plugin was designed to work with Grunt 0.4.x. If you\'re still using grunt v0.3.x it\'s strongly recommended that [you upgrade](http://gruntjs.com/upgrading-from-0.3-to-0.4), but in case you can\'t please use [v0.3.2](https://github.com/gruntjs/grunt-contrib-copy/tree/grunt-0.3-stable).*\n\n\n\n## Copy task\n_Run this task with the `grunt copy` command._\n\nTask targets, files and options may be specified according to the grunt [Configuring tasks](http://gruntjs.com/configuring-tasks) guide.\n### Options\n\n#### process\nType: `Function(content, srcpath)`\n\nThis option is passed to `grunt.file.copy` as an advanced way to control the file contents that are copied.\n\n*`processContent` has been renamed to `process` and the option name will be removed in the future.*\n\n#### noProcess\nType: `String`\n\nThis option is passed to `grunt.file.copy` as an advanced way to control which file contents are processed.\n\n*`processContentExclude` has been renamed to `noProcess` and the option name will be removed in the future.*\n\n#### encoding\nType: `String`  \nDefault: `grunt.file.defaultEncoding`\n\nThe file encoding to copy files with.\n\n#### mode\nType: `Boolean` or `Number`  \nDefault: `false`\n\nWhether to copy or set the existing file permissions. Set to `true` to copy the existing file permissions. Or set to the mode, i.e.: `0644`, that copied files will be set to.\n\n### Usage Examples\n\n```js\ncopy: {\n  main: {\n    files: [\n      // includes files within path\n      {expand: true, src: [\'path/*\'], dest: \'dest/\', filter: \'isFile\'},\n\n      // includes files within path and its sub-directories\n      {expand: true, src: [\'path/**\'], dest: \'dest/\'},\n\n      // makes all src relative to cwd\n      {expand: true, cwd: \'path/\', src: [\'**\'], dest: \'dest/\'},\n\n      // flattens results to a single level\n      {expand: true, flatten: true, src: [\'path/**\'], dest: \'dest/\', filter: \'isFile\'}\n    ]\n  }\n}\n```\n\nThis task supports all the file mapping format Grunt supports. Please read [Globbing patterns](http://gruntjs.com/configuring-tasks#globbing-patterns) and [Building the files object dynamically](http://gruntjs.com/configuring-tasks#building-the-files-object-dynamically) for additional details.\n\nHere are some additional examples, given the following file tree:\n```shell\n$ tree -I node_modules\n.\n├── Gruntfile.js\n└── src\n    ├── a\n    └── subdir\n        └── b\n\n2 directories, 3 files\n```\n\n**Copy a single file tree:**\n```js\ncopy: {\n  main: {\n    src: \'src/*\',\n    dest: \'dest/\',\n  },\n},\n```\n\n```shell\n$ grunt copy\nRunning "copy:main" (copy) task\nCreated 1 directories, copied 1 files\n\nDone, without errors.\n$ tree -I node_modules\n.\n├── Gruntfile.js\n├── dest\n│   └── src\n│       ├── a\n│       └── subdir\n└── src\n    ├── a\n    └── subdir\n        └── b\n\n5 directories, 4 files\n```\n\n**Flattening the filepath output:**\n\n```js\ncopy: {\n  main: {\n    expand: true,\n    cwd: \'src/\',\n    src: \'**\',\n    dest: \'dest/\',\n    flatten: true,\n    filter: \'isFile\',\n  },\n},\n```\n\n```shell\n$ grunt copy\nRunning "copy:main" (copy) task\nCopied 2 files\n\nDone, without errors.\n$ tree -I node_modules\n.\n├── Gruntfile.js\n├── dest\n│   ├── a\n│   └── b\n└── src\n    ├── a\n    └── subdir\n        └── b\n\n3 directories, 5 files\n```\n\n\n**Copy and modify a file:**\n\nTo change the contents of a file as it is copied, set an `options.process` function as follows:\n\n```js\ncopy: {\n  main: {\n    src: \'src/a\',\n    dest: \'src/a.bak\',\n    options: {\n      process: function (content, srcpath) {\n        return content.replace(/[sad ]/g,"_");\n      }\n    }\n  },\n},\n```\n\nHere all occurences of the letters "s", "a" and "d", as well as all spaces, will be changed to underlines in "a.bak". Of course, you are not limited to just using regex replacements.\n\nTo process all files in a directory, the `process` function is used in exactly the same way.\n\nNOTE: If `process` is not working, be aware it was called `processContent` in v0.4.1 and earlier.\n\n\n##### Troubleshooting\n\nBy default, if a file or directory is not found it is quietly ignored. If the file should exist, and non-existence generate an error, then add `nonull:true`. For instance, this Gruntfile.js entry:\n\n```js\ncopy: {\n  main: {\n    nonull: true,\n    src: \'not-there\',\n    dest: \'create-me\',\n  },\n},\n```\n\ngives this output:\n\n```shell\n$ grunt copy\nRunning "copy:main" (copy) task\nWarning: Unable to read "not-there" file (Error code: ENOENT). Use --force to continue.\n\nAborted due to warnings.\n```\n\n\n\n## Release History\n\n * 2013-12-23   v0.5.0   If an encoding is specified, overwrite grunt.file.defaultEncoding. Rename processContent/processContentExclude to process/noProcess to match Grunt API. mode option to copy existing or set file permissions.\n * 2013-03-26   v0.4.1   Output summary by default ("Copied N files, created M folders"). Individual transaction output available via `--verbose`.\n * 2013-02-15   v0.4.0   First official release for Grunt 0.4.0.\n * 2013-01-23   v0.4.0rc7   Updating grunt/gruntplugin dependencies to rc7. Changing in-development grunt/gruntplugin dependency versions from tilde version ranges to specific versions.\n * 2013-01-14   v0.4.0rc5   Updating to work with grunt v0.4.0rc5. Conversion to grunt v0.4 conventions. Replace basePath with cwd. Empty directory support.\n * 2012-10-18   v0.3.2   Pass copyOptions on single file copy.\n * 2012-10-12   v0.3.1   Rename grunt-contrib-lib dep to grunt-lib-contrib.\n * 2012-09-24   v0.3.0   General cleanup and consolidation. Global options depreciated.\n * 2012-09-18   v0.2.4   No valid source check.\n * 2012-09-17   v0.2.3   Path.sep fallback for node <= 0.7.9.\n * 2012-09-17   v0.2.2   Single file copy support. Test refactoring.\n * 2012-09-07   v0.2.0   Refactored from grunt-contrib into individual repo.\n\n---\n\nTask submitted by [Chris Talkington](http://christalkington.com/)\n\n*This file was generated on Mon Dec 23 2013 20:21:57.*\n',
+631 silly install resolved     readmeFilename: 'README.md',
+631 silly install resolved     _id: 'grunt-contrib-copy@0.5.0',
+631 silly install resolved     _from: 'grunt-contrib-copy@>=0.5.0 <0.6.0' },
+631 silly install resolved   { name: 'grunt-contrib-cssmin',
+631 silly install resolved     description: 'Compress CSS files.',
+631 silly install resolved     version: '0.10.0',
+631 silly install resolved     homepage: 'https://github.com/gruntjs/grunt-contrib-cssmin',
+631 silly install resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+631 silly install resolved     repository:
+631 silly install resolved      { type: 'git',
+631 silly install resolved        url: 'git://github.com/gruntjs/grunt-contrib-cssmin.git' },
+631 silly install resolved     bugs: { url: 'https://github.com/gruntjs/grunt-contrib-cssmin/issues' },
+631 silly install resolved     licenses: [ [Object] ],
+631 silly install resolved     engines: { node: '>= 0.8.0' },
+631 silly install resolved     scripts: { test: 'grunt test' },
+631 silly install resolved     dependencies: { chalk: '~0.4.0', 'clean-css': '~2.2.0', maxmin: '~0.2.0' },
+631 silly install resolved     devDependencies:
+631 silly install resolved      { 'grunt-contrib-jshint': '~0.10.0',
+631 silly install resolved        'grunt-contrib-nodeunit': '~0.4.0',
+631 silly install resolved        'grunt-contrib-clean': '~0.5.0',
+631 silly install resolved        'grunt-contrib-internal': '~0.4.6',
+631 silly install resolved        grunt: '~0.4.1' },
+631 silly install resolved     peerDependencies: { grunt: '~0.4.1' },
+631 silly install resolved     keywords: [ 'gruntplugin', 'cssmin' ],
+631 silly install resolved     files: [ 'tasks', 'LICENSE-MIT' ],
+631 silly install resolved     _id: 'grunt-contrib-cssmin@0.10.0',
+631 silly install resolved     dist:
+631 silly install resolved      { shasum: 'e05f341e753a9674b2b1070220fdcbac22079418',
+631 silly install resolved        tarball: 'http://registry.npmjs.org/grunt-contrib-cssmin/-/grunt-contrib-cssmin-0.10.0.tgz' },
+631 silly install resolved     _from: 'grunt-contrib-cssmin@>=0.10.0 <0.11.0',
+631 silly install resolved     _npmVersion: '1.3.26',
+631 silly install resolved     _npmUser: { name: 'vladikoff', email: 'vlad@vladikoff.com' },
+631 silly install resolved     maintainers:
+631 silly install resolved      [ [Object],
+631 silly install resolved        [Object],
+631 silly install resolved        [Object],
+631 silly install resolved        [Object],
+631 silly install resolved        [Object],
+631 silly install resolved        [Object],
+631 silly install resolved        [Object] ],
+631 silly install resolved     directories: {},
+631 silly install resolved     _shasum: 'e05f341e753a9674b2b1070220fdcbac22079418',
+631 silly install resolved     _resolved: 'https://registry.npmjs.org/grunt-contrib-cssmin/-/grunt-contrib-cssmin-0.10.0.tgz',
+631 silly install resolved     readme: 'ERROR: No README data found!' },
+631 silly install resolved   { name: 'grunt-contrib-htmlmin',
+631 silly install resolved     description: 'Minify HTML',
+631 silly install resolved     version: '0.3.0',
+631 silly install resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+631 silly install resolved     repository:
+631 silly install resolved      { type: 'git',
+631 silly install resolved        url: 'git://github.com/gruntjs/grunt-contrib-htmlmin' },
+631 silly install resolved     licenses: [ [Object] ],
+631 silly install resolved     engines: { node: '>= 0.10.0' },
+631 silly install resolved     scripts: { test: 'grunt test' },
+631 silly install resolved     dependencies:
+631 silly install resolved      { chalk: '~0.4.0',
+631 silly install resolved        'html-minifier': '~0.6.0',
+631 silly install resolved        'pretty-bytes': '~0.1.0' },
+631 silly install resolved     devDependencies:
+631 silly install resolved      { grunt: '~0.4.2',
+631 silly install resolved        'grunt-contrib-clean': '~0.5.0',
+631 silly install resolved        'grunt-contrib-internal': '~0.4.4',
+631 silly install resolved        'grunt-contrib-jshint': '~0.10.0',
+631 silly install resolved        'grunt-contrib-nodeunit': '~0.3.0' },
+631 silly install resolved     peerDependencies: { grunt: '~0.4.0' },
+631 silly install resolved     keywords: [ 'gruntplugin', 'html', 'min', 'minify', 'compress' ],
+631 silly install resolved     files: [ 'tasks', 'LICENSE-MIT' ],
+631 silly install resolved     bugs: { url: 'https://github.com/gruntjs/grunt-contrib-htmlmin/issues' },
+631 silly install resolved     homepage: 'https://github.com/gruntjs/grunt-contrib-htmlmin',
+631 silly install resolved     _id: 'grunt-contrib-htmlmin@0.3.0',
+631 silly install resolved     dist:
+631 silly install resolved      { shasum: 'c960802048f609925e9d0ef1b0670904b4c5a3fd',
+631 silly install resolved        tarball: 'http://registry.npmjs.org/grunt-contrib-htmlmin/-/grunt-contrib-htmlmin-0.3.0.tgz' },
+631 silly install resolved     _from: 'grunt-contrib-htmlmin@>=0.3.0 <0.4.0',
+631 silly install resolved     _npmVersion: '1.4.3',
+631 silly install resolved     _npmUser: { name: 'vladikoff', email: 'vlad@vladikoff.com' },
+631 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+631 silly install resolved     directories: {},
+631 silly install resolved     _shasum: 'c960802048f609925e9d0ef1b0670904b4c5a3fd',
+631 silly install resolved     _resolved: 'https://registry.npmjs.org/grunt-contrib-htmlmin/-/grunt-contrib-htmlmin-0.3.0.tgz',
+631 silly install resolved     readme: 'ERROR: No README data found!' },
+631 silly install resolved   { name: 'grunt-contrib-jshint',
+631 silly install resolved     description: 'Validate files with JSHint.',
+631 silly install resolved     version: '0.10.0',
+631 silly install resolved     homepage: 'https://github.com/gruntjs/grunt-contrib-jshint',
+631 silly install resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+631 silly install resolved     repository:
+631 silly install resolved      { type: 'git',
+631 silly install resolved        url: 'git://github.com/gruntjs/grunt-contrib-jshint.git' },
+631 silly install resolved     bugs: { url: 'https://github.com/gruntjs/grunt-contrib-jshint/issues' },
+631 silly install resolved     licenses: [ [Object] ],
+631 silly install resolved     engines: { node: '>= 0.8.0' },
+631 silly install resolved     scripts: { test: 'grunt test' },
+631 silly install resolved     dependencies: { jshint: '~2.5.0', hooker: '~0.2.3' },
+631 silly install resolved     devDependencies:
+631 silly install resolved      { 'grunt-contrib-nodeunit': '~0.3.1',
+631 silly install resolved        'grunt-contrib-internal': '~0.4.8',
+631 silly install resolved        grunt: '~0.4.0' },
+631 silly install resolved     peerDependencies: { grunt: '~0.4.0' },
+631 silly install resolved     keywords: [ 'gruntplugin' ],
+631 silly install resolved     files: [ 'tasks', 'LICENSE-MIT' ],
+631 silly install resolved     _id: 'grunt-contrib-jshint@0.10.0',
+631 silly install resolved     dist:
+631 silly install resolved      { shasum: '57ebccca87e8f327af6645d8a3c586d4845e4d81',
+631 silly install resolved        tarball: 'http://registry.npmjs.org/grunt-contrib-jshint/-/grunt-contrib-jshint-0.10.0.tgz' },
+631 silly install resolved     _from: 'grunt-contrib-jshint@>=0.10.0 <0.11.0',
+631 silly install resolved     _npmVersion: '1.4.3',
+631 silly install resolved     _npmUser: { name: 'vladikoff', email: 'vlad@vladikoff.com' },
+631 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+631 silly install resolved     directories: {},
+631 silly install resolved     _shasum: '57ebccca87e8f327af6645d8a3c586d4845e4d81',
+631 silly install resolved     _resolved: 'https://registry.npmjs.org/grunt-contrib-jshint/-/grunt-contrib-jshint-0.10.0.tgz',
+631 silly install resolved     readme: 'ERROR: No README data found!' },
+631 silly install resolved   { name: 'grunt-contrib-watch',
+631 silly install resolved     description: 'Run predefined tasks whenever watched file patterns are added, changed or deleted.',
+631 silly install resolved     version: '0.6.1',
+631 silly install resolved     homepage: 'https://github.com/gruntjs/grunt-contrib-watch',
+631 silly install resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+631 silly install resolved     repository:
+631 silly install resolved      { type: 'git',
+631 silly install resolved        url: 'git://github.com/gruntjs/grunt-contrib-watch.git' },
+631 silly install resolved     bugs: { url: 'https://github.com/gruntjs/grunt-contrib-watch/issues' },
+631 silly install resolved     licenses: [ [Object] ],
+631 silly install resolved     engines: { node: '>= 0.8.0' },
+631 silly install resolved     scripts: { test: 'grunt nodeunit -v' },
+631 silly install resolved     dependencies:
+631 silly install resolved      { gaze: '~0.5.1',
+631 silly install resolved        'tiny-lr-fork': '0.0.5',
+631 silly install resolved        lodash: '~2.4.1',
+631 silly install resolved        async: '~0.2.9' },
+631 silly install resolved     devDependencies:
+631 silly install resolved      { grunt: '~0.4.0',
+631 silly install resolved        'grunt-contrib-jshint': '~0.8.0',
+631 silly install resolved        'grunt-contrib-nodeunit': '~0.3.3',
+631 silly install resolved        'grunt-contrib-internal': '~0.4.7',
+631 silly install resolved        'underscore.string': '~2.3.3' },
+631 silly install resolved     peerDependencies: { grunt: '~0.4.0' },
+631 silly install resolved     keywords: [ 'gruntplugin', 'watch' ],
+631 silly install resolved     files: [ 'tasks', 'LICENSE-MIT' ],
+631 silly install resolved     _id: 'grunt-contrib-watch@0.6.1',
+631 silly install resolved     dist:
+631 silly install resolved      { shasum: '64fdcba25a635f5b4da1b6ce6f90da0aeb6e3f15',
+631 silly install resolved        tarball: 'http://registry.npmjs.org/grunt-contrib-watch/-/grunt-contrib-watch-0.6.1.tgz' },
+631 silly install resolved     _from: 'grunt-contrib-watch@>=0.6.1 <0.7.0',
+631 silly install resolved     _npmVersion: '1.4.4',
+631 silly install resolved     _npmUser: { name: 'shama', email: 'kyle@dontkry.com' },
+631 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+631 silly install resolved     directories: {},
+631 silly install resolved     _shasum: '64fdcba25a635f5b4da1b6ce6f90da0aeb6e3f15',
+631 silly install resolved     _resolved: 'https://registry.npmjs.org/grunt-contrib-watch/-/grunt-contrib-watch-0.6.1.tgz',
+631 silly install resolved     readme: 'ERROR: No README data found!' },
+631 silly install resolved   { name: 'grunt-mocha',
+631 silly install resolved     description: 'Grunt task for running client-side Mocha specs in PhantomJS',
+631 silly install resolved     version: '0.4.12',
+631 silly install resolved     homepage: 'https://github.com/kmiyashiro/grunt-mocha',
+631 silly install resolved     author:
+631 silly install resolved      { name: 'Kelly Miyashiro',
+631 silly install resolved        email: 'miyashiro.kelly@gmail.com',
+631 silly install resolved        url: 'http://non-diligent.com' },
+631 silly install resolved     repository:
+631 silly install resolved      { type: 'git',
+631 silly install resolved        url: 'git://github.com/kmiyashiro/grunt-mocha.git' },
+631 silly install resolved     bugs: { url: 'https://github.com/kmiyashiro/grunt-mocha/issues' },
+631 silly install resolved     licenses: [ [Object] ],
+631 silly install resolved     main: 'Gruntfile.js',
+631 silly install resolved     engines: { node: '*' },
+631 silly install resolved     scripts: { test: 'grunt test' },
+631 silly install resolved     dependencies:
+631 silly install resolved      { 'grunt-lib-phantomjs': '~0.4',
+631 silly install resolved        mocha: '1.21.5',
+631 silly install resolved        lodash: '~2.3.0' },
+631 silly install resolved     peerDependencies: { grunt: '~0.4' },
+631 silly install resolved     devDependencies:
+631 silly install resolved      { grunt: '~0.4',
+631 silly install resolved        'grunt-contrib-connect': '~0.2',
+631 silly install resolved        'grunt-contrib-jshint': '~0.3' },
+631 silly install resolved     keywords: [ 'gruntplugin', 'mocha', 'test', 'phantomjs' ],
+631 silly install resolved     files: [ 'growl', 'phantomjs', 'support', 'tasks' ],
+631 silly install resolved     contributors: [ [Object], [Object] ],
+631 silly install resolved     gitHead: '39d814e64a429318a22f8e7eefe3f83bb151187b',
+631 silly install resolved     _id: 'grunt-mocha@0.4.12',
+631 silly install resolved     _shasum: 'dd9bccfc84a2fc3594162ea64fe61af56b47f293',
+631 silly install resolved     _from: 'grunt-mocha@>=0.4.10 <0.5.0',
+631 silly install resolved     _npmVersion: '2.1.10',
+631 silly install resolved     _nodeVersion: '0.10.29',
+631 silly install resolved     _npmUser: { name: 'kmiyashiro', email: 'miyashiro.kelly@gmail.com' },
+631 silly install resolved     maintainers: [ [Object] ],
+631 silly install resolved     dist:
+631 silly install resolved      { shasum: 'dd9bccfc84a2fc3594162ea64fe61af56b47f293',
+631 silly install resolved        tarball: 'http://registry.npmjs.org/grunt-mocha/-/grunt-mocha-0.4.12.tgz' },
+631 silly install resolved     directories: {},
+631 silly install resolved     _resolved: 'https://registry.npmjs.org/grunt-mocha/-/grunt-mocha-0.4.12.tgz',
+631 silly install resolved     readme: 'ERROR: No README data found!' },
+631 silly install resolved   { name: 'grunt-newer',
+631 silly install resolved     description: 'Run Grunt tasks with only those source files modified since the last successful run.',
+631 silly install resolved     version: '0.7.0',
+631 silly install resolved     homepage: 'https://github.com/tschaub/grunt-newer',
+631 silly install resolved     author: { name: 'Tim Schaub', url: 'http://tschaub.net/' },
+631 silly install resolved     repository: { type: 'git', url: 'git://github.com/tschaub/grunt-newer.git' },
+631 silly install resolved     bugs: { url: 'https://github.com/tschaub/grunt-newer/issues' },
+631 silly install resolved     licenses: [ [Object] ],
+631 silly install resolved     main: 'gruntfile.js',
+631 silly install resolved     engines: { node: '>= 0.8.0' },
+631 silly install resolved     scripts: { test: 'grunt test', start: 'grunt test watch' },
+631 silly install resolved     devDependencies:
+631 silly install resolved      { grunt: '0.4.2',
+631 silly install resolved        'grunt-cli': '0.1.13',
+631 silly install resolved        'grunt-contrib-watch': '0.5.3',
+631 silly install resolved        'grunt-contrib-jshint': '0.8.0',
+631 silly install resolved        chai: '1.9.0',
+631 silly install resolved        'grunt-cafe-mocha': '0.1.11',
+631 silly install resolved        wrench: '1.5.7',
+631 silly install resolved        tmp: '0.0.23',
+631 silly install resolved        'grunt-contrib-clean': '0.5.0',
+631 silly install resolved        'mock-fs': '2.x' },
+631 silly install resolved     peerDependencies: { grunt: '~0.4.1' },
+631 silly install resolved     keywords: [ 'gruntplugin', 'grunt', 'newer', 'files' ],
+631 silly install resolved     dependencies: { async: '0.2.10', rimraf: '2.2.6' },
+631 silly install resolved     _id: 'grunt-newer@0.7.0',
+631 silly install resolved     dist:
+631 silly install resolved      { shasum: '376d9d9b64ce5c648b6bfa1bda98f7bc2193e41e',
+631 silly install resolved        tarball: 'http://registry.npmjs.org/grunt-newer/-/grunt-newer-0.7.0.tgz' },
+631 silly install resolved     _from: 'grunt-newer@>=0.7.0 <0.8.0',
+631 silly install resolved     _npmVersion: '1.3.17',
+631 silly install resolved     _npmUser: { name: 'tschaub', email: 'tim.schaub@gmail.com' },
+631 silly install resolved     maintainers: [ [Object] ],
+631 silly install resolved     directories: {},
+631 silly install resolved     _shasum: '376d9d9b64ce5c648b6bfa1bda98f7bc2193e41e',
+631 silly install resolved     _resolved: 'https://registry.npmjs.org/grunt-newer/-/grunt-newer-0.7.0.tgz',
+631 silly install resolved     readme: 'ERROR: No README data found!' },
+631 silly install resolved   { name: 'grunt-contrib-uglify',
+631 silly install resolved     description: 'Minify files with UglifyJS.',
+631 silly install resolved     version: '0.5.1',
+631 silly install resolved     homepage: 'https://github.com/gruntjs/grunt-contrib-uglify',
+631 silly install resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+631 silly install resolved     repository:
+631 silly install resolved      { type: 'git',
+631 silly install resolved        url: 'git://github.com/gruntjs/grunt-contrib-uglify.git' },
+631 silly install resolved     bugs: { url: 'https://github.com/gruntjs/grunt-contrib-uglify/issues' },
+631 silly install resolved     licenses: [ [Object] ],
+631 silly install resolved     engines: { node: '>=0.10.0' },
+631 silly install resolved     scripts: { test: 'grunt test' },
+631 silly install resolved     dependencies:
+631 silly install resolved      { chalk: '^0.5.1',
+631 silly install resolved        lodash: '^2.4.1',
+631 silly install resolved        maxmin: '^0.2.0',
+631 silly install resolved        'uglify-js': '^2.4.0' },
+631 silly install resolved     devDependencies:
+631 silly install resolved      { grunt: '^0.4.2',
+631 silly install resolved        'grunt-contrib-clean': '^0.5.0',
+631 silly install resolved        'grunt-contrib-internal': '^0.4.2',
+631 silly install resolved        'grunt-contrib-jshint': '^0.10.0',
+631 silly install resolved        'grunt-contrib-nodeunit': '^0.4.0' },
+631 silly install resolved     peerDependencies: { grunt: '~0.4.0' },
+631 silly install resolved     keywords: [ 'gruntplugin' ],
+631 silly install resolved     files: [ 'tasks', 'LICENSE-MIT' ],
+631 silly install resolved     contributors: [ [Object], [Object], [Object] ],
+631 silly install resolved     gitHead: 'dfd721b5a5dabd4266e411d171a8670744f152ff',
+631 silly install resolved     _id: 'grunt-contrib-uglify@0.5.1',
+631 silly install resolved     _shasum: '15f0aa5e8e8ba421aea980879ee505bc712b6cde',
+631 silly install resolved     _from: 'grunt-contrib-uglify@>=0.5.1 <0.6.0',
+631 silly install resolved     _npmVersion: '2.0.0-alpha-5',
+631 silly install resolved     _npmUser: { name: 'vladikoff', email: 'vlad@vladikoff.com' },
+631 silly install resolved     maintainers:
+631 silly install resolved      [ [Object],
+631 silly install resolved        [Object],
+631 silly install resolved        [Object],
+631 silly install resolved        [Object],
+631 silly install resolved        [Object],
+631 silly install resolved        [Object],
+631 silly install resolved        [Object] ],
+631 silly install resolved     dist:
+631 silly install resolved      { shasum: '15f0aa5e8e8ba421aea980879ee505bc712b6cde',
+631 silly install resolved        tarball: 'http://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.5.1.tgz' },
+631 silly install resolved     directories: {},
+631 silly install resolved     _resolved: 'https://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.5.1.tgz',
+631 silly install resolved     readme: 'ERROR: No README data found!' },
+631 silly install resolved   { name: 'grunt-rev',
+631 silly install resolved     description: 'Static file asset revisioning through content hashing',
+631 silly install resolved     version: '0.1.0',
+631 silly install resolved     homepage: 'https://github.com/cbas/grunt-rev',
+631 silly install resolved     author:
+631 silly install resolved      { name: 'Sebastiaan Deckers',
+631 silly install resolved        email: 'seb@ninja.sg',
+631 silly install resolved        url: 'http://ninja.sg' },
+631 silly install resolved     repository: { type: 'git', url: 'git://github.com/cbas/grunt-rev.git' },
+631 silly install resolved     bugs: { url: 'https://github.com/cbas/grunt-rev/issues' },
+631 silly install resolved     licenses: [ [Object] ],
+631 silly install resolved     main: 'Gruntfile.js',
+631 silly install resolved     engines: { node: '>= 0.8.0' },
+631 silly install resolved     scripts: { test: 'grunt test' },
+631 silly install resolved     devDependencies:
+631 silly install resolved      { 'grunt-contrib-copy': '0.4.0',
+631 silly install resolved        'grunt-contrib-jshint': '0.1.1rc6',
+631 silly install resolved        'grunt-contrib-clean': '0.4.0rc6',
+631 silly install resolved        'grunt-contrib-nodeunit': '0.1.2rc6',
+631 silly install resolved        grunt: '0.4.0rc6' },
+631 silly install resolved     keywords: [ 'gruntplugin' ],
+631 silly install resolved     readme: '# grunt-rev [![Build Status](https://travis-ci.org/cbas/grunt-rev.png)](https://travis-ci.org/cbas/grunt-rev)\n\n> Static file asset revisioning through content hashing\n\n## Getting Started\n_If you haven\'t used [grunt][] before, be sure to check out the [Getting Started][] guide._\n\nFrom the same directory as your project\'s [Gruntfile][Getting Started] and [package.json][], install this plugin with the following command:\n\n```bash\nnpm install grunt-rev --save-dev\n```\n\nOnce that\'s done, add this line to your project\'s Gruntfile:\n\n```js\ngrunt.loadNpmTasks(\'grunt-rev\');\n```\n\nIf the plugin has been installed correctly, running `grunt --help` at the command line should list the newly-installed plugin\'s task or tasks. In addition, the plugin should be listed in package.json as a `devDependency`, which ensures that it will be installed whenever the `npm install` command is run.\n\n[grunt]: http://gruntjs.com/\n[Getting Started]: https://github.com/gruntjs/grunt/blob/devel/docs/getting_started.md\n[package.json]: https://npmjs.org/doc/json.html\n\n## The "rev" task\n\nUse the **rev** task together with [yeoman/grunt-usemin](https://github.com/yeoman/grunt-usemin) for cache busting of static files in your app. This allows them to be cached forever by the browser.\n\n### Overview\nIn your project\'s Gruntfile, add a section named `rev` to the data object passed into `grunt.initConfig()`.\n\n```js\ngrunt.initConfig({\n  rev: {\n    options: {\n      algorithm: \'md5\',\n      length: 8\n    },\n    assets: {\n      files: [{\n        src: [\n          \'img/**/*.{jpg,jpeg,gif,png}\',\n          \'fonts/**/*.{eot,svg,ttf,woff}\'\n        ]\n      }]\n    }\n  },\n})\n```\n\n### Options\n\n#### options.algorithm\nType: `String`\nDefault value: `\'md5\'`\n\n`algorithm` is dependent on the available algorithms supported by the version of OpenSSL on the platform. Examples are `\'sha1\'`, `\'md5\'`, `\'sha256\'`, `\'sha512\'`, etc. On recent releases, `openssl list-message-digest-algorithms` will display the available digest algorithms.\n\n#### options.length\nType: `Number`\nDefault value: `8`\n\nThe number of characters of the file content hash to prefix the file name with.\n\n### Usage Examples\n\n#### Basic Asset Revving\nThis will rename `app.js` and `app.css` with an 8 character long hash prefix. For example `js/9becff3a.app.js` and `css/ae35dd05.app.css`. The hash value depends on the file contents.\n\n```js\ngrunt.initConfig({\n  rev: {\n    files: {\n      src: [\'scripts/app.js\', \'css/app.css\']\n    }\n  }\n})\n```\n\n#### Custom Options\nChange the algorithm or length to style the generated asset file names. Note that the `usemin` companion task requires at least one anycase hexadecimal character to prefix the file name.\n\n```js\ngrunt.initConfig({\n  rev: {\n    options: {\n      algorithm: \'sha1\',\n      length: 4\n    },\n    files: {\n      src: [\'**/*.{js,css,png,jpg}\']\n    }\n  }\n})\n```\n\n## Contributing\nIn lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [grunt][].\n\n## Release History\n_(Nothing yet)_\n',
+631 silly install resolved     readmeFilename: 'README.md',
+631 silly install resolved     _id: 'grunt-rev@0.1.0',
+631 silly install resolved     dist:
+631 silly install resolved      { shasum: 'b32427e7d842345839709343a58c387361694947',
+631 silly install resolved        tarball: 'http://registry.npmjs.org/grunt-rev/-/grunt-rev-0.1.0.tgz' },
+631 silly install resolved     _from: 'grunt-rev@>=0.1.0 <0.2.0',
+631 silly install resolved     _npmVersion: '1.2.10',
+631 silly install resolved     _npmUser: { name: 'seb', email: 'seb@ninja.sg' },
+631 silly install resolved     maintainers: [ [Object] ],
+631 silly install resolved     directories: {},
+631 silly install resolved     _shasum: 'b32427e7d842345839709343a58c387361694947',
+631 silly install resolved     _resolved: 'https://registry.npmjs.org/grunt-rev/-/grunt-rev-0.1.0.tgz' },
+631 silly install resolved   { name: 'grunt-contrib-imagemin',
+631 silly install resolved     description: 'Minify images',
+631 silly install resolved     version: '0.8.1',
+631 silly install resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+631 silly install resolved     repository:
+631 silly install resolved      { type: 'git',
+631 silly install resolved        url: 'git://github.com/gruntjs/grunt-contrib-imagemin' },
+631 silly install resolved     licenses: [ [Object] ],
+631 silly install resolved     engines: { node: '>=0.10.0' },
+631 silly install resolved     scripts: { test: 'grunt test' },
+631 silly install resolved     dependencies:
+631 silly install resolved      { async: '^0.9.0',
+631 silly install resolved        chalk: '^0.5.1',
+631 silly install resolved        imagemin: '^1.0.4',
+631 silly install resolved        'pretty-bytes': '^1.0.1' },
+631 silly install resolved     devDependencies:
+631 silly install resolved      { grunt: '^0.4.5',
+631 silly install resolved        'grunt-contrib-clean': '^0.6.0',
+631 silly install resolved        'grunt-contrib-internal': '^0.4.10',
+631 silly install resolved        'grunt-contrib-jshint': '^0.10.0',
+631 silly install resolved        'grunt-contrib-nodeunit': '^0.4.1',
+631 silly install resolved        'time-grunt': '^1.0.0' },
+631 silly install resolved     peerDependencies: { grunt: '~0.4.0' },
+631 silly install resolved     keywords:
+631 silly install resolved      [ 'gruntplugin',
+631 silly install resolved        'compress',
+631 silly install resolved        'gif',
+631 silly install resolved        'image',
+631 silly install resolved        'img',
+631 silly install resolved        'jpeg',
+631 silly install resolved        'jpg',
+631 silly install resolved        'minify',
+631 silly install resolved        'png' ],
+631 silly install resolved     files: [ 'tasks', 'LICENSE-MIT' ],
+631 silly install resolved     bugs: { url: 'https://github.com/gruntjs/grunt-contrib-imagemin/issues' },
+631 silly install resolved     homepage: 'https://github.com/gruntjs/grunt-contrib-imagemin',
+631 silly install resolved     _id: 'grunt-contrib-imagemin@0.8.1',
+631 silly install resolved     _shasum: '78cf20c849c811947b38eddd8efbf3e3d2d61b78',
+631 silly install resolved     _from: 'grunt-contrib-imagemin@>=0.8.0 <0.9.0',
+631 silly install resolved     _npmVersion: '1.4.9',
+631 silly install resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+631 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+631 silly install resolved     dist:
+631 silly install resolved      { shasum: '78cf20c849c811947b38eddd8efbf3e3d2d61b78',
+631 silly install resolved        tarball: 'http://registry.npmjs.org/grunt-contrib-imagemin/-/grunt-contrib-imagemin-0.8.1.tgz' },
+631 silly install resolved     directories: {},
+631 silly install resolved     _resolved: 'https://registry.npmjs.org/grunt-contrib-imagemin/-/grunt-contrib-imagemin-0.8.1.tgz',
+631 silly install resolved     readme: 'ERROR: No README data found!' },
+631 silly install resolved   { name: 'grunt-svgmin',
+631 silly install resolved     version: '0.4.0',
+631 silly install resolved     description: 'Minify SVG',
+631 silly install resolved     keywords:
+631 silly install resolved      [ 'gruntplugin',
+631 silly install resolved        'svg',
+631 silly install resolved        'vector',
+631 silly install resolved        'graphic',
+631 silly install resolved        'image',
+631 silly install resolved        'optimize',
+631 silly install resolved        'minify' ],
+631 silly install resolved     homepage: 'https://github.com/sindresorhus/grunt-svgmin',
+631 silly install resolved     bugs: { url: 'https://github.com/sindresorhus/grunt-svgmin/issues' },
+631 silly install resolved     author:
+631 silly install resolved      { name: 'Sindre Sorhus',
+631 silly install resolved        email: 'sindresorhus@gmail.com',
+631 silly install resolved        url: 'http://sindresorhus.com' },
+631 silly install resolved     repository:
+631 silly install resolved      { type: 'git',
+631 silly install resolved        url: 'git://github.com/sindresorhus/grunt-svgmin.git' },
+631 silly install resolved     scripts: { test: 'grunt' },
+631 silly install resolved     dependencies:
+631 silly install resolved      { svgo: '~0.4.1',
+631 silly install resolved        chalk: '~0.4.0',
+631 silly install resolved        'each-async': '~0.1.2',
+631 silly install resolved        'pretty-bytes': '~0.1.0' },
+631 silly install resolved     devDependencies:
+631 silly install resolved      { grunt: '~0.4.1',
+631 silly install resolved        'grunt-contrib-clean': '~0.5.0',
+631 silly install resolved        'grunt-simple-mocha': '~0.4.0' },
+631 silly install resolved     peerDependencies: { grunt: '~0.4.0' },
+631 silly install resolved     engines: { node: '>=0.10.0' },
+631 silly install resolved     licenses: { type: 'MIT' },
+631 silly install resolved     _id: 'grunt-svgmin@0.4.0',
+631 silly install resolved     dist:
+631 silly install resolved      { shasum: 'f19d1193022ae0080e0fae5d313e12ef7cae0aae',
+631 silly install resolved        tarball: 'http://registry.npmjs.org/grunt-svgmin/-/grunt-svgmin-0.4.0.tgz' },
+631 silly install resolved     _from: 'grunt-svgmin@>=0.4.0 <0.5.0',
+631 silly install resolved     _npmVersion: '1.4.4',
+631 silly install resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+631 silly install resolved     maintainers: [ [Object] ],
+631 silly install resolved     directories: {},
+631 silly install resolved     _shasum: 'f19d1193022ae0080e0fae5d313e12ef7cae0aae',
+631 silly install resolved     _resolved: 'https://registry.npmjs.org/grunt-svgmin/-/grunt-svgmin-0.4.0.tgz',
+631 silly install resolved     readme: 'ERROR: No README data found!' },
+631 silly install resolved   { name: 'grunt-usemin',
+631 silly install resolved     version: '2.6.2',
+631 silly install resolved     license: 'BSD-2-Clause',
+631 silly install resolved     author: { name: 'The Yeoman Team' },
+631 silly install resolved     description: 'Replaces references to non-optimized scripts or stylesheets into a set of HTML files (or any templates/views).',
+631 silly install resolved     keywords: [ 'gruntplugin', 'usemin', 'yeoman', 'html', 'css', 'optimize' ],
+631 silly install resolved     homepage: 'https://github.com/yeoman/grunt-usemin',
+631 silly install resolved     repository:
+631 silly install resolved      { type: 'git',
+631 silly install resolved        url: 'https://github.com/yeoman/grunt-usemin.git' },
+631 silly install resolved     bugs: { url: 'https://github.com/yeoman/grunt-usemin/issues' },
+631 silly install resolved     scripts: { test: 'grunt test' },
+631 silly install resolved     dependencies: { chalk: '~0.5.1', debug: '~2.1.0', lodash: '~2.4.1' },
+631 silly install resolved     devDependencies:
+631 silly install resolved      { grunt: '~0.4.5',
+631 silly install resolved        'grunt-contrib-jshint': '~0.10.0',
+631 silly install resolved        'grunt-jscs': '~0.8.0',
+631 silly install resolved        'grunt-mocha-cli': '~1.10.0',
+631 silly install resolved        mkdirp: '~0.5.0',
+631 silly install resolved        rimraf: '~2.2.8' },
+631 silly install resolved     peerDependencies: { grunt: '>=0.4.0' },
+631 silly install resolved     engines: { node: '>=0.10.0' },
+631 silly install resolved     files: [ 'lib', 'tasks' ],
+631 silly install resolved     gitHead: '89b2c8b3c1c4e184e878c1bc1414b4f2c828a839',
+631 silly install resolved     _id: 'grunt-usemin@2.6.2',
+631 silly install resolved     _shasum: '2b136ba02264a9a91d94d424c8d3726bd88db7da',
+631 silly install resolved     _from: 'grunt-usemin@>=2.3.0 <3.0.0',
+631 silly install resolved     _npmVersion: '2.1.5',
+631 silly install resolved     _nodeVersion: '0.10.32',
+631 silly install resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+631 silly install resolved     maintainers:
+631 silly install resolved      [ [Object],
+631 silly install resolved        [Object],
+631 silly install resolved        [Object],
+631 silly install resolved        [Object],
+631 silly install resolved        [Object],
+631 silly install resolved        [Object],
+631 silly install resolved        [Object] ],
+631 silly install resolved     dist:
+631 silly install resolved      { shasum: '2b136ba02264a9a91d94d424c8d3726bd88db7da',
+631 silly install resolved        tarball: 'http://registry.npmjs.org/grunt-usemin/-/grunt-usemin-2.6.2.tgz' },
+631 silly install resolved     directories: {},
+631 silly install resolved     _resolved: 'https://registry.npmjs.org/grunt-usemin/-/grunt-usemin-2.6.2.tgz',
+631 silly install resolved     readme: 'ERROR: No README data found!' },
+631 silly install resolved   { name: 'grunt-wiredep',
+631 silly install resolved     description: 'Inject your Bower dependencies right into your HTML from Grunt.',
+631 silly install resolved     version: '1.9.0',
+631 silly install resolved     homepage: 'http://stephenplusplus.github.io/grunt-wiredep',
+631 silly install resolved     author:
+631 silly install resolved      { name: 'Stephen Sawchuk',
+631 silly install resolved        email: 'sawchuk@gmail.com',
+631 silly install resolved        url: 'http://github.com/stephenplusplus' },
+631 silly install resolved     keywords:
+631 silly install resolved      [ 'gruntplugin',
+631 silly install resolved        'html',
+631 silly install resolved        'grunt',
+631 silly install resolved        'bower',
+631 silly install resolved        'package',
+631 silly install resolved        'wiredep',
+631 silly install resolved        'dependency',
+631 silly install resolved        'component',
+631 silly install resolved        'postinstall' ],
+631 silly install resolved     repository:
+631 silly install resolved      { type: 'git',
+631 silly install resolved        url: 'https://github.com/stephenplusplus/grunt-wiredep' },
+631 silly install resolved     licenses: [ [Object] ],
+631 silly install resolved     engines: { node: '>=0.8.0', npm: '>=1.2.10' },
+631 silly install resolved     peerDependencies: { grunt: '~0.4.0' },
+631 silly install resolved     dependencies: { wiredep: '^1.5.0' },
+631 silly install resolved     gitHead: '3368b8ae11589eb6d6d07368ac5d1473bf7d5546',
+631 silly install resolved     bugs: { url: 'https://github.com/stephenplusplus/grunt-wiredep/issues' },
+631 silly install resolved     _id: 'grunt-wiredep@1.9.0',
+631 silly install resolved     scripts: {},
+631 silly install resolved     _shasum: '9bed278f4c05daf41db1afcd03d6f559a6dad0ce',
+631 silly install resolved     _from: 'grunt-wiredep@>=1.7.0 <2.0.0',
+631 silly install resolved     _npmVersion: '1.4.23',
+631 silly install resolved     _npmUser: { name: 'stephenplusplus', email: 'sawchuk@gmail.com' },
+631 silly install resolved     maintainers: [ [Object] ],
+631 silly install resolved     dist:
+631 silly install resolved      { shasum: '9bed278f4c05daf41db1afcd03d6f559a6dad0ce',
+631 silly install resolved        tarball: 'http://registry.npmjs.org/grunt-wiredep/-/grunt-wiredep-1.9.0.tgz' },
+631 silly install resolved     directories: {},
+631 silly install resolved     _resolved: 'https://registry.npmjs.org/grunt-wiredep/-/grunt-wiredep-1.9.0.tgz',
+631 silly install resolved     readme: 'ERROR: No README data found!' },
+631 silly install resolved   { name: 'jshint-stylish',
+631 silly install resolved     version: '0.4.0',
+631 silly install resolved     description: 'Stylish reporter for JSHint',
+631 silly install resolved     license: 'MIT',
+631 silly install resolved     repository:
+631 silly install resolved      { type: 'git',
+631 silly install resolved        url: 'git://github.com/sindresorhus/jshint-stylish' },
+631 silly install resolved     author:
+631 silly install resolved      { name: 'Sindre Sorhus',
+631 silly install resolved        email: 'sindresorhus@gmail.com',
+631 silly install resolved        url: 'http://sindresorhus.com' },
+631 silly install resolved     engines: { node: '>=0.10.0' },
+631 silly install resolved     scripts: { test: 'mocha' },
+631 silly install resolved     files: [ 'index.js', 'stylish.js' ],
+631 silly install resolved     keywords: [ 'jshint', 'reporter', 'lint', 'validate', 'stylish', 'elegant' ],
+631 silly install resolved     dependencies:
+631 silly install resolved      { chalk: '^0.5.1',
+631 silly install resolved        'log-symbols': '^1.0.0',
+631 silly install resolved        'text-table': '^0.2.0' },
+631 silly install resolved     devDependencies: { mocha: '*', jshint: '^2' },
+631 silly install resolved     bugs: { url: 'https://github.com/sindresorhus/jshint-stylish/issues' },
+631 silly install resolved     homepage: 'https://github.com/sindresorhus/jshint-stylish',
+631 silly install resolved     _id: 'jshint-stylish@0.4.0',
+631 silly install resolved     _shasum: 'd785caf657926768145ed070f70f0f1ec536f8c6',
+631 silly install resolved     _from: 'jshint-stylish@>=0.4.0 <0.5.0',
+631 silly install resolved     _npmVersion: '1.4.9',
+631 silly install resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+631 silly install resolved     maintainers: [ [Object] ],
+631 silly install resolved     dist:
+631 silly install resolved      { shasum: 'd785caf657926768145ed070f70f0f1ec536f8c6',
+631 silly install resolved        tarball: 'http://registry.npmjs.org/jshint-stylish/-/jshint-stylish-0.4.0.tgz' },
+631 silly install resolved     directories: {},
+631 silly install resolved     _resolved: 'https://registry.npmjs.org/jshint-stylish/-/jshint-stylish-0.4.0.tgz',
+631 silly install resolved     readme: 'ERROR: No README data found!' },
+631 silly install resolved   { name: 'load-grunt-tasks',
+631 silly install resolved     version: '0.4.0',
+631 silly install resolved     description: 'Load multiple grunt tasks using globbing patterns',
+631 silly install resolved     keywords:
+631 silly install resolved      [ 'grunt',
+631 silly install resolved        'load',
+631 silly install resolved        'require',
+631 silly install resolved        'tasks',
+631 silly install resolved        'glob',
+631 silly install resolved        'pattern',
+631 silly install resolved        'match',
+631 silly install resolved        'matchdep',
+631 silly install resolved        'dependencies' ],
+631 silly install resolved     license: 'MIT',
+631 silly install resolved     author:
+631 silly install resolved      { name: 'Sindre Sorhus',
+631 silly install resolved        email: 'sindresorhus@gmail.com',
+631 silly install resolved        url: 'http://sindresorhus.com' },
+631 silly install resolved     files: [ 'load-grunt-tasks.js' ],
+631 silly install resolved     main: 'load-grunt-tasks',
+631 silly install resolved     repository:
+631 silly install resolved      { type: 'git',
+631 silly install resolved        url: 'git://github.com/sindresorhus/load-grunt-tasks' },
+631 silly install resolved     scripts: { test: 'grunt' },
+631 silly install resolved     dependencies: { 'findup-sync': '^0.1.2', multimatch: '^0.1.0' },
+631 silly install resolved     devDependencies:
+631 silly install resolved      { grunt: '^0.4.2',
+631 silly install resolved        'grunt-cli': '^0.1.12',
+631 silly install resolved        'grunt-svgmin': '^0.3.0' },
+631 silly install resolved     engines: { node: '>=0.10.0' },
+631 silly install resolved     bugs: { url: 'https://github.com/sindresorhus/load-grunt-tasks/issues' },
+631 silly install resolved     homepage: 'https://github.com/sindresorhus/load-grunt-tasks',
+631 silly install resolved     _id: 'load-grunt-tasks@0.4.0',
+631 silly install resolved     dist:
+631 silly install resolved      { shasum: 'f824663ffba251b574efda5a935afacefe0a95f4',
+631 silly install resolved        tarball: 'http://registry.npmjs.org/load-grunt-tasks/-/load-grunt-tasks-0.4.0.tgz' },
+631 silly install resolved     _from: 'load-grunt-tasks@>=0.4.0 <0.5.0',
+631 silly install resolved     _npmVersion: '1.4.3',
+631 silly install resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+631 silly install resolved     maintainers: [ [Object] ],
+631 silly install resolved     directories: {},
+631 silly install resolved     _shasum: 'f824663ffba251b574efda5a935afacefe0a95f4',
+631 silly install resolved     _resolved: 'https://registry.npmjs.org/load-grunt-tasks/-/load-grunt-tasks-0.4.0.tgz',
+631 silly install resolved     readme: 'ERROR: No README data found!' },
+631 silly install resolved   { name: 'time-grunt',
+631 silly install resolved     version: '0.4.0',
+631 silly install resolved     description: 'Displays the elapsed execution time of grunt tasks when done',
+631 silly install resolved     keywords: [ 'grunt', 'tasks', 'measure', 'time', 'profile' ],
+631 silly install resolved     license: 'MIT',
+631 silly install resolved     author:
+631 silly install resolved      { name: 'Sindre Sorhus',
+631 silly install resolved        email: 'sindresorhus@gmail.com',
+631 silly install resolved        url: 'http://sindresorhus.com' },
+631 silly install resolved     files: [ 'time-grunt.js' ],
+631 silly install resolved     main: 'time-grunt.js',
+631 silly install resolved     repository: { type: 'git', url: 'git://github.com/sindresorhus/time-grunt' },
+631 silly install resolved     scripts: { test: 'grunt && grunt sigint' },
+631 silly install resolved     dependencies:
+631 silly install resolved      { chalk: '^0.5.1',
+631 silly install resolved        'date-time': '^0.1.0',
+631 silly install resolved        figures: '^1.0.0',
+631 silly install resolved        hooker: '^0.2.3',
+631 silly install resolved        'pretty-ms': '^0.2.2',
+631 silly install resolved        'text-table': '^0.2.0' },
+631 silly install resolved     devDependencies: { grunt: '^0.4.2' },
+631 silly install resolved     engines: { node: '>=0.10.0' },
+631 silly install resolved     bugs: { url: 'https://github.com/sindresorhus/time-grunt/issues' },
+631 silly install resolved     homepage: 'https://github.com/sindresorhus/time-grunt',
+631 silly install resolved     _id: 'time-grunt@0.4.0',
+631 silly install resolved     _shasum: '98af578bd5c656f4e8b6e686f333d16db9e0d28b',
+631 silly install resolved     _from: 'time-grunt@>=0.4.0 <0.5.0',
+631 silly install resolved     _npmVersion: '1.4.9',
+631 silly install resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+631 silly install resolved     maintainers: [ [Object] ],
+631 silly install resolved     dist:
+631 silly install resolved      { shasum: '98af578bd5c656f4e8b6e686f333d16db9e0d28b',
+631 silly install resolved        tarball: 'http://registry.npmjs.org/time-grunt/-/time-grunt-0.4.0.tgz' },
+631 silly install resolved     directories: {},
+631 silly install resolved     _resolved: 'https://registry.npmjs.org/time-grunt/-/time-grunt-0.4.0.tgz',
+631 silly install resolved     readme: 'ERROR: No README data found!' },
+631 silly install resolved   { name: 'grunt',
+631 silly install resolved     description: 'The JavaScript Task Runner',
+631 silly install resolved     version: '0.4.5',
+631 silly install resolved     author: { name: '"Cowboy" Ben Alman', url: 'http://benalman.com/' },
+631 silly install resolved     homepage: 'http://gruntjs.com/',
+631 silly install resolved     repository: { type: 'git', url: 'git://github.com/gruntjs/grunt.git' },
+631 silly install resolved     bugs: { url: 'http://github.com/gruntjs/grunt/issues' },
+631 silly install resolved     licenses: [ [Object] ],
+631 silly install resolved     main: 'lib/grunt',
+631 silly install resolved     scripts: { test: 'grunt test' },
+631 silly install resolved     engines: { node: '>= 0.8.0' },
+631 silly install resolved     keywords:
+631 silly install resolved      [ 'task',
+631 silly install resolved        'async',
+631 silly install resolved        'cli',
+631 silly install resolved        'minify',
+631 silly install resolved        'uglify',
+631 silly install resolved        'build',
+631 silly install resolved        'lodash',
+631 silly install resolved        'unit',
+631 silly install resolved        'test',
+631 silly install resolved        'qunit',
+631 silly install resolved        'nodeunit',
+631 silly install resolved        'server',
+631 silly install resolved        'init',
+631 silly install resolved        'scaffold',
+631 silly install resolved        'make',
+631 silly install resolved        'jake',
+631 silly install resolved        'tool' ],
+631 silly install resolved     dependencies:
+631 silly install resolved      { async: '~0.1.22',
+631 silly install resolved        'coffee-script': '~1.3.3',
+631 silly install resolved        colors: '~0.6.2',
+631 silly install resolved        dateformat: '1.0.2-1.2.3',
+631 silly install resolved        eventemitter2: '~0.4.13',
+631 silly install resolved        'findup-sync': '~0.1.2',
+631 silly install resolved        glob: '~3.1.21',
+631 silly install resolved        hooker: '~0.2.3',
+631 silly install resolved        'iconv-lite': '~0.2.11',
+631 silly install resolved        minimatch: '~0.2.12',
+631 silly install resolved        nopt: '~1.0.10',
+631 silly install resolved        rimraf: '~2.2.8',
+631 silly install resolved        lodash: '~0.9.2',
+631 silly install resolved        'underscore.string': '~2.2.1',
+631 silly install resolved        which: '~1.0.5',
+631 silly install resolved        'js-yaml': '~2.0.5',
+631 silly install resolved        exit: '~0.1.1',
+631 silly install resolved        getobject: '~0.1.0',
+631 silly install resolved        'grunt-legacy-util': '~0.2.0',
+631 silly install resolved        'grunt-legacy-log': '~0.1.0' },
+631 silly install resolved     devDependencies:
+631 silly install resolved      { temporary: '~0.0.4',
+631 silly install resolved        'grunt-contrib-jshint': '~0.6.4',
+631 silly install resolved        'grunt-contrib-nodeunit': '~0.2.0',
+631 silly install resolved        'grunt-contrib-watch': '~0.5.3',
+631 silly install resolved        difflet: '~0.2.3',
+631 silly install resolved        semver: '2.1.0',
+631 silly install resolved        shelljs: '~0.2.5' },
+631 silly install resolved     _id: 'grunt@0.4.5',
+631 silly install resolved     dist:
+631 silly install resolved      { shasum: '56937cd5194324adff6d207631832a9d6ba4e7f0',
+631 silly install resolved        tarball: 'http://registry.npmjs.org/grunt/-/grunt-0.4.5.tgz' },
+631 silly install resolved     _from: 'grunt@>=0.4.5 <0.5.0',
+631 silly install resolved     _npmVersion: '1.4.4',
+631 silly install resolved     _npmUser: { name: 'cowboy', email: 'cowboy@rj3.net' },
+631 silly install resolved     maintainers: [ [Object], [Object] ],
+631 silly install resolved     directories: {},
+631 silly install resolved     _shasum: '56937cd5194324adff6d207631832a9d6ba4e7f0',
+631 silly install resolved     _resolved: 'https://registry.npmjs.org/grunt/-/grunt-0.4.5.tgz',
+631 silly install resolved     readme: 'ERROR: No README data found!' },
+631 silly install resolved   { author: { name: 'The H5BP Team' },
+631 silly install resolved     bugs: { url: 'https://github.com/h5bp/server-configs-apache/issues' },
+631 silly install resolved     description: 'Boilerplate configurations for the Apache HTTP server',
+631 silly install resolved     devDependencies: { mocha: '^2.1.0' },
+631 silly install resolved     files: [ 'dist' ],
+631 silly install resolved     homepage: 'https://github.com/h5bp/server-configs-apache',
+631 silly install resolved     keywords:
+631 silly install resolved      [ 'apache',
+631 silly install resolved        'boilerplate',
+631 silly install resolved        'configs',
+631 silly install resolved        'configurations',
+631 silly install resolved        'h5bp',
+631 silly install resolved        'server',
+631 silly install resolved        'template' ],
+631 silly install resolved     license:
+631 silly install resolved      { type: 'MIT',
+631 silly install resolved        url: 'https://github.com/h5bp/server-configs-apache/blob/master/LICENSE.md' },
+631 silly install resolved     name: 'apache-server-configs',
+631 silly install resolved     repository:
+631 silly install resolved      { type: 'git',
+631 silly install resolved        url: 'https://github.com/h5bp/server-configs-apache' },
+631 silly install resolved     scripts:
+631 silly install resolved      { build: 'bin/build/build.sh',
+631 silly install resolved        test: 'npm run build && mocha --reporter spec --timeout 5000 test/test_suite.js' },
+631 silly install resolved     version: '2.14.0',
+631 silly install resolved     gitHead: 'a2a6faf032d1d07788a583308c99c329978704c3',
+631 silly install resolved     _id: 'apache-server-configs@2.14.0',
+631 silly install resolved     _shasum: 'c68363fb7532b19934a87855a93ca442710eb7a5',
+631 silly install resolved     _from: 'apache-server-configs@>=2.7.1 <3.0.0',
+631 silly install resolved     _npmVersion: '2.7.5',
+631 silly install resolved     _nodeVersion: '0.12.0',
+631 silly install resolved     _npmUser: { name: 'alrra', email: 'alrraa@gmail.com' },
+631 silly install resolved     maintainers: [ [Object] ],
+631 silly install resolved     dist:
+631 silly install resolved      { shasum: 'c68363fb7532b19934a87855a93ca442710eb7a5',
+631 silly install resolved        tarball: 'http://registry.npmjs.org/apache-server-configs/-/apache-server-configs-2.14.0.tgz' },
+631 silly install resolved     directories: {},
+631 silly install resolved     _resolved: 'https://registry.npmjs.org/apache-server-configs/-/apache-server-configs-2.14.0.tgz',
+631 silly install resolved     readme: 'ERROR: No README data found!' } ]
+632 info install grunt-autoprefixer@1.0.1 into /Users/sunnychao/Documents/_Projects/skb2
+633 info install grunt-concurrent@0.5.0 into /Users/sunnychao/Documents/_Projects/skb2
+634 info install grunt-contrib-connect@0.8.0 into /Users/sunnychao/Documents/_Projects/skb2
+635 info install grunt-contrib-concat@0.5.1 into /Users/sunnychao/Documents/_Projects/skb2
+636 info install grunt-contrib-clean@0.6.0 into /Users/sunnychao/Documents/_Projects/skb2
+637 info install grunt-contrib-copy@0.5.0 into /Users/sunnychao/Documents/_Projects/skb2
+638 info install grunt-contrib-cssmin@0.10.0 into /Users/sunnychao/Documents/_Projects/skb2
+639 info install grunt-contrib-htmlmin@0.3.0 into /Users/sunnychao/Documents/_Projects/skb2
+640 info install grunt-contrib-jshint@0.10.0 into /Users/sunnychao/Documents/_Projects/skb2
+641 info install grunt-contrib-watch@0.6.1 into /Users/sunnychao/Documents/_Projects/skb2
+642 info install grunt-mocha@0.4.12 into /Users/sunnychao/Documents/_Projects/skb2
+643 info install grunt-newer@0.7.0 into /Users/sunnychao/Documents/_Projects/skb2
+644 info install grunt-contrib-uglify@0.5.1 into /Users/sunnychao/Documents/_Projects/skb2
+645 info install grunt-rev@0.1.0 into /Users/sunnychao/Documents/_Projects/skb2
+646 info install grunt-contrib-imagemin@0.8.1 into /Users/sunnychao/Documents/_Projects/skb2
+647 info install grunt-svgmin@0.4.0 into /Users/sunnychao/Documents/_Projects/skb2
+648 info install grunt-usemin@2.6.2 into /Users/sunnychao/Documents/_Projects/skb2
+649 info install grunt-wiredep@1.9.0 into /Users/sunnychao/Documents/_Projects/skb2
+650 info install jshint-stylish@0.4.0 into /Users/sunnychao/Documents/_Projects/skb2
+651 info install load-grunt-tasks@0.4.0 into /Users/sunnychao/Documents/_Projects/skb2
+652 info install time-grunt@0.4.0 into /Users/sunnychao/Documents/_Projects/skb2
+653 info install grunt@0.4.5 into /Users/sunnychao/Documents/_Projects/skb2
+654 info install apache-server-configs@2.14.0 into /Users/sunnychao/Documents/_Projects/skb2
+655 info installOne grunt-autoprefixer@1.0.1
+656 info installOne grunt-concurrent@0.5.0
+657 info installOne grunt-contrib-connect@0.8.0
+658 info installOne grunt-contrib-concat@0.5.1
+659 info installOne grunt-contrib-clean@0.6.0
+660 info installOne grunt-contrib-copy@0.5.0
+661 info installOne grunt-contrib-cssmin@0.10.0
+662 info installOne grunt-contrib-htmlmin@0.3.0
+663 info installOne grunt-contrib-jshint@0.10.0
+664 info installOne grunt-contrib-watch@0.6.1
+665 info installOne grunt-mocha@0.4.12
+666 info installOne grunt-newer@0.7.0
+667 info installOne grunt-contrib-uglify@0.5.1
+668 info installOne grunt-rev@0.1.0
+669 info installOne grunt-contrib-imagemin@0.8.1
+670 info installOne grunt-svgmin@0.4.0
+671 info installOne grunt-usemin@2.6.2
+672 info installOne grunt-wiredep@1.9.0
+673 info installOne jshint-stylish@0.4.0
+674 info installOne load-grunt-tasks@0.4.0
+675 info installOne time-grunt@0.4.0
+676 info installOne grunt@0.4.5
+677 info installOne apache-server-configs@2.14.0
+678 verbose locking grunt-autoprefixer with /Users/sunnychao/.npm/_locks/grunt-autoprefixer-ee4e3f6bee7ac162.lock
+679 verbose locking grunt-concurrent with /Users/sunnychao/.npm/_locks/grunt-concurrent-5765434ed18bfe48.lock
+680 verbose locking grunt-contrib-connect with /Users/sunnychao/.npm/_locks/grunt-contrib-connect-aa1e056cc4346d3e.lock
+681 verbose locking grunt-contrib-concat with /Users/sunnychao/.npm/_locks/grunt-contrib-concat-18e38a84e4e666cc.lock
+682 verbose locking grunt-contrib-clean with /Users/sunnychao/.npm/_locks/grunt-contrib-clean-84238b122479fe97.lock
+683 verbose locking grunt-contrib-copy with /Users/sunnychao/.npm/_locks/grunt-contrib-copy-f011d55b012f5e41.lock
+684 verbose locking grunt-contrib-cssmin with /Users/sunnychao/.npm/_locks/grunt-contrib-cssmin-fad4d3a7078724ab.lock
+685 verbose locking grunt-contrib-htmlmin with /Users/sunnychao/.npm/_locks/grunt-contrib-htmlmin-35decff61a8a9aa0.lock
+686 verbose locking grunt-contrib-jshint with /Users/sunnychao/.npm/_locks/grunt-contrib-jshint-a8b7f94883f353d9.lock
+687 verbose locking grunt-contrib-watch with /Users/sunnychao/.npm/_locks/grunt-contrib-watch-e02c0a903519778b.lock
+688 verbose locking grunt-mocha with /Users/sunnychao/.npm/_locks/grunt-mocha-97a330bc51a5e54f.lock
+689 verbose locking grunt-newer with /Users/sunnychao/.npm/_locks/grunt-newer-7a6bcfa383827e21.lock
+690 verbose locking grunt-contrib-uglify with /Users/sunnychao/.npm/_locks/grunt-contrib-uglify-91a5654d6d004d9a.lock
+691 verbose locking grunt-rev with /Users/sunnychao/.npm/_locks/grunt-rev-b9e74bd85e83aca4.lock
+692 verbose locking grunt-contrib-imagemin with /Users/sunnychao/.npm/_locks/grunt-contrib-imagemin-5a36a54c491326af.lock
+693 verbose locking grunt-svgmin with /Users/sunnychao/.npm/_locks/grunt-svgmin-906f316f1151f9a6.lock
+694 verbose locking grunt-usemin with /Users/sunnychao/.npm/_locks/grunt-usemin-a31ef531890efce1.lock
+695 verbose locking grunt-wiredep with /Users/sunnychao/.npm/_locks/grunt-wiredep-3a2fd4424abca00e.lock
+696 verbose locking jshint-stylish with /Users/sunnychao/.npm/_locks/jshint-stylish-9179bcb5d35d1b93.lock
+697 verbose locking load-grunt-tasks with /Users/sunnychao/.npm/_locks/load-grunt-tasks-9692ccafc2ce020e.lock
+698 verbose locking time-grunt with /Users/sunnychao/.npm/_locks/time-grunt-040b4fcebe41f999.lock
+699 verbose locking grunt with /Users/sunnychao/.npm/_locks/grunt-f4520762777a823e.lock
+700 verbose locking apache-server-configs with /Users/sunnychao/.npm/_locks/apache-server-configs-9adb03333eb706a7.lock
+701 warn locking Error: EACCES, open '/Users/sunnychao/.npm/_locks/grunt-autoprefixer-ee4e3f6bee7ac162.lock'
+701 warn locking  failed { [Error: EACCES, open '/Users/sunnychao/.npm/_locks/grunt-autoprefixer-ee4e3f6bee7ac162.lock']
+701 warn locking   errno: 3,
+701 warn locking   code: 'EACCES',
+701 warn locking   path: '/Users/sunnychao/.npm/_locks/grunt-autoprefixer-ee4e3f6bee7ac162.lock' }
+702 verbose stack Error: Attempt to unlock grunt-autoprefixer, which hasn't been locked
+702 verbose stack     at unlock (/usr/local/lib/node_modules/npm/lib/utils/locker.js:54:11)
+702 verbose stack     at cb (/usr/local/lib/node_modules/npm/lib/install.js:908:5)
+702 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:912:20
+702 verbose stack     at /usr/local/lib/node_modules/npm/lib/utils/locker.js:36:9
+702 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:149:38)
+702 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:177:38
+702 verbose stack     at Object.oncomplete (fs.js:107:15)
+703 verbose cwd /Users/sunnychao/Documents/_Projects/skb2/test
+704 error Darwin 14.1.0
+705 error argv "node" "/usr/local/bin/npm" "install"
+706 error node v0.10.24
+707 error npm  v2.1.2
+708 error Attempt to unlock grunt-autoprefixer, which hasn't been locked
+709 error If you need help, you may report this error at:
+709 error     <http://github.com/npm/npm/issues>
+710 verbose exit [ 1, true ]

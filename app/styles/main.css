@@ -1,0 +1,165 @@
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+a:hover, li a:hover{
+  color: #EE1289;
+}
+.siteTitle a{
+  color: #EE1289;
+  text-decoration: none;
+}
+.container{
+  width: 90%;
+}
+.blackbar{
+  background-color: black;
+  height: 30px;
+  width: 100%;
+  position: relative;
+  margin: 25px 0;
+}
+.navigation{
+  margin: 0 auto;
+  width: 90%;
+  height: 30px;
+  display: block;
+  font-weight: bold;
+  list-style: none;
+}
+.navigation a{
+  color: white;
+  line-height: 1em;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 12px;
+}
+.navigation li{
+  float: left;
+  display: inline-block;
+  padding: 5px;
+  text-align: center;
+}
+.polaroid{
+  background-color: #f2ebe3;
+  height: 80px;
+  width: 80px;
+  position: relative;
+  float: left;
+  margin: 0 15px;
+  border: 1px solid #ccc0b3;
+}
+.polaroidImg{
+  height: 70%;
+  background: white;
+    width: 90%;
+    margin: 5%;
+    position: relative
+}
+.upcomingTrips{
+  width: 100%;
+  height: 150px;
+  color: black;
+  position: relative;
+  float: right;
+  text-align: center;
+}
+.tripsTitle{
+  color: black !important;
+  font-size: 30px;
+}
+.polaroidWrap{
+  height: 100%;
+  width: 57%;
+  margin: 0 auto;
+}
+.thumbnail{
+  height: 150px;
+  background-color: black;
+  margin: 1%;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 940px;
+  }
+  .siteTitle{
+    padding-left: 30px;
+  }
+  .blackbar{
+  background-color: black;
+  height: 30px;
+  width: 100%;
+  position: relative;
+  /*margin-left: -45px;*/
+  margin-top: 25px;
+  }
+  .navigation{
+    width: 100%;
+    height: 30px;
+    display: block;
+    font-weight: bold;
+    list-style: none;
+    padding: 0;
+  }
+  .navigation a{
+    color: white;
+    line-height: 1em;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  .navigation li{
+    float: left;
+    display: inline-block;
+    padding: 5px;
+    text-align: center;
+  }
+  .col-md-3-thumb{
+    width: 23%;
+  }
+  .topPart{
+    height: 560px;
+    padding: 0 15px;
+  }
+  .featuredImage{
+    width: 100%;
+    height: 320px;
+    background: black;
+    /*height: auto;*/
+  }
+  .instagram{
+    /*width: 100%;*/
+  }
+  .upcomingTrips{
+      width: 100%;
+      height: 150px;
+      color: black;
+      position: relative;
+      float: right;
+  }
+  .polaroidWrap{
+    height: 100%;
+    width: 318px;
+    margin: 0 auto;
+  }
+  .polaroid{
+    background-color: #f2ebe3;
+    height: 98px;
+    width: 98px;
+    position: relative;
+    float: left;
+    margin: 0px 4px;
+    border: 1px solid #ccc0b3;
+  }
+  .polaroidImg{
+    height: 70%;
+    width: 90%;
+    background: white;
+    margin: 5%;
+    position: relative;
+  }
+
+}
