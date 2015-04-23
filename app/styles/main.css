@@ -71,14 +71,27 @@ a:hover, li a:hover{
 }
 .polaroidWrap{
   height: 100%;
-  width: 57%;
+  width: 100%;
   margin: 0 auto;
 }
 .thumbnail{
   height: 150px;
   background-color: black;
   margin: 1%;
+  border: none;
+  border-radius: 0;
 }
+.thumbnailTitle{
+  height: 30px;
+  width: 70%;
+  background-color: white;
+  text-decoration: none;
+  color: #EE1289;
+  display: block;
+  margin-top: 116px;
+  margin-left: 110px;
+}
+
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
@@ -161,5 +174,10 @@ a:hover, li a:hover{
     margin: 5%;
     position: relative;
   }
-
+  .thumbnailTitle{
+    margin-left: 46px;
+    margin-top: 116px;
+    display: none;
+    width: 80%;
+  }
 }
