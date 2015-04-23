@@ -142,6 +142,7 @@ a:hover, li a:hover{
     height: 320px;
     background: black;
     /*height: auto;*/
+    text-decoration: none;
   }
   .instagram{
     /*width: 100%;*/
