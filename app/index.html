@@ -13,6 +13,9 @@
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" type="text/css" href="styles/font.css">
+    <link rel="stylesheet" href="fonts/league-gothic.eot" type="text/css" media="all">
+    <link rel="stylesheet" href="fonts/league-gothic.woff" type="text/css" media="all">
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
   </head>
@@ -38,8 +41,8 @@
         </div>
       </div>
       <div class="row topPart">
-          <div class="col-sm-6 hidden-xs featuredPost">
-              <h3>Post Title</h3>
+          <div class="col-sm-6 col-md-6 featuredPost">
+              <h3 class="featuredTitle">Post Title</h3>
               <a href="#"><div class="featuredImage"> featured image</div></a>
               <div class="excerpt"> 
                 <p>excerpt</p>  
@@ -48,25 +51,48 @@
           <div class="col-xs-12 col-sm-6 instagram">
               <div class="upcomingTrips">
                 <h1 class="tripsTitle">UPCOMING TRIPS</h1>
-                  <div class="polaroidWrap">
-                      <div class="polaroid">
-                        <div class="polaroidImg">
-                          
+                    <div class="polaroidWrap">
+                        <div class="polaroid" data-toggle="modal" data-target=".modal1">
+                            <div class="polaroidImg pol1"></div>
                         </div>
-                      </div>
-                      <div class="polaroid">
-                        <div class="polaroidImg">
-                          
+                        <div class="polaroid" data-toggle="modal" data-target=".modal2">
+                            <div class="polaroidImg pol2"></div>
                         </div>
-                      </div>
-                      <div class="polaroid">
-                        <div class="polaroidImg">
-                          
+                        <div class="polaroid" data-toggle="modal" data-target=".modal3">
+                            <div class="polaroidImg pol3"></div>
                         </div>
-                      </div>
-                  </div>
+                    </div>
               </div>
           </div>
+          <!-- *************************           Modals             ************************************** -->
+          
+          <div class="modal fade modal1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="pol1 modalpolaroid"></div>
+                <div class="polExcerptDiv"><p class="polExcerpt">a;jdf;a</p></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal fade modal2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="pol2 modalpolaroid"></div>
+                <div class="polExcerptDiv"><p class="polExcerpt">excerpt</p></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal fade modal3" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="pol3 modalpolaroid"></div>
+                <div class="polExcerptDiv"><p class="polExcerpt">excerpt</p></div>
+              </div>
+            </div>
+          </div>
+          <!-- *****************************        END MODALS        ************************************** -->
       </div>
       <div class="row">
         <div class="col-xs-12 postGallery">
@@ -169,7 +195,10 @@
         <!-- endbuild -->
 
         <!-- build:js({app,.tmp}) scripts/main.js -->
+        <script src="scripts/jquery.gsap.min.js"></script>
+        <script src="scripts/TweenMax.min.js"></script>
         <script src="scripts/main.js"></script>
+
         <!-- endbuild -->
 </body>
 </html>

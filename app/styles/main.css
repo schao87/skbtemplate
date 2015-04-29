@@ -9,6 +9,8 @@ a:hover, li a:hover{
 .siteTitle a{
   color: #EE1289;
   text-decoration: none;
+  font-family: 'league gothic';
+  font-size: 35px;
 }
 .container{
   width: 90%;
@@ -42,20 +44,20 @@ a:hover, li a:hover{
   text-align: center;
 }
 .polaroid{
-  background-color: #f2ebe3;
-  height: 80px;
-  width: 80px;
-  position: relative;
+   background: url('../images/polaroid.png');
+  background-repeat: no-repeat;
+  background-position: cover;
+  width: 100px;
+  height: 117px;
   float: left;
-  margin: 0 15px;
-  border: 1px solid #ccc0b3;
+  margin: 0 3px;
+  cursor: pointer;
 }
 .polaroidImg{
-  height: 70%;
-  background: white;
-    width: 90%;
-    margin: 5%;
-    position: relative
+  background: black;
+  height: 71px;
+  width: 81px;
+  margin: 16px 10px;
 }
 .upcomingTrips{
   width: 100%;
@@ -71,11 +73,11 @@ a:hover, li a:hover{
 }
 .polaroidWrap{
   height: 100%;
-  width: 100%;
+  width: 330px;
   margin: 0 auto;
 }
 .thumbnail{
-  height: 150px;
+  height: 200px;
   background-color: black;
   margin: 1%;
   border: none;
@@ -88,10 +90,66 @@ a:hover, li a:hover{
   text-decoration: none;
   color: #EE1289;
   display: block;
-  margin-top: 116px;
-  margin-left: 110px;
+  bottom: 0;
+  position: absolute;
+  right: 0;
+  padding-left: 6px;
 }
-
+.featuredTitle{
+  margin-bottom: 20px;
+}
+.featuredImage{
+    width: 100%;
+    height: 320px;
+    background: black;
+   text-decoration: none;
+}
+.featuredPost{
+  padding: 0;
+}
+.excerpt{
+  font-family: arial;
+  margin-top: 20px;
+}
+.postGallery{
+  margin-top: 50px;
+}
+.pol1{
+  background-repeat: no-repeat;
+  background: url('../images/Polaroid1.jpg');
+  background-size: cover;
+}
+.pol2{
+  background-repeat: no-repeat;
+  background: url('../images/Polaroid2.jpg');
+  background-size: cover;
+}
+.pol3{
+  background-repeat: no-repeat;
+  background: url('../images/Polaroid3.jpg');
+  background-size: cover;
+}
+.modalpolaroid{
+  height: 300px;
+  width: 300px;
+  margin: 20px auto 0;
+  position: relative;
+}
+.modal-content{
+  margin: 0 auto;
+  width: 350px;
+  background: #D2CEC2;
+}
+.modal-lg{
+  width: 350px;
+}
+.polExcerpt{
+  margin: 0;
+  width: 348px;
+  height: 60px;
+  background: #bcb096;
+  padding: 4px 27px;
+}
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
@@ -159,26 +217,38 @@ a:hover, li a:hover{
     width: 318px;
     margin: 0 auto;
   }
-  .polaroid{
-    background-color: #f2ebe3;
-    height: 98px;
-    width: 98px;
-    position: relative;
-    float: left;
-    margin: 0px 4px;
-    border: 1px solid #ccc0b3;
+ 
+  .postGallery{
+    margin-top: 0;
   }
-  .polaroidImg{
-    height: 70%;
-    width: 90%;
-    background: white;
-    margin: 5%;
-    position: relative;
+  .thumbnail{
+    height: 150px;
   }
   .thumbnailTitle{
     margin-left: 46px;
     margin-top: 116px;
-    display: none;
+    opacity: 0;
     width: 80%;
+  }
+  .modal-lg{
+    width: 480px;
+  }
+  .modal-content{
+    margin: 0 auto;
+    width: 480px;
+    background: #D2CEC2;
+  }
+  .modalpolaroid{
+    height: 400px;
+    width: 400px;
+    margin: 40px auto 0;
+    position: relative;
+  }
+  .polExcerpt{
+    margin: 0;
+    width: 478px;
+    height: 80px;
+    background: #bcb096;
+    padding: 4px 39px;
   }
 }
