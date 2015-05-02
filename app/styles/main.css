@@ -29,6 +29,7 @@ a:hover, li a:hover{
   display: block;
   font-weight: bold;
   list-style: none;
+  padding: 0;
 }
 .navigation a{
   color: white;
@@ -40,8 +41,11 @@ a:hover, li a:hover{
 .navigation li{
   float: left;
   display: inline-block;
-  padding: 5px;
+  padding: 5px 16px;
   text-align: center;
+}
+.topPart{
+  padding: 0 5px;
 }
 .polaroid{
    background: url('../images/polaroid.png');
@@ -162,10 +166,10 @@ a:hover, li a:hover{
   .blackbar{
   background-color: black;
   height: 30px;
-  width: 100%;
+  width: 105%;
   position: relative;
-  /*margin-left: -45px;*/
   margin-top: 25px;
+  margin-left: -23px;
   }
   .navigation{
     width: 100%;
@@ -185,7 +189,7 @@ a:hover, li a:hover{
   .navigation li{
     float: left;
     display: inline-block;
-    padding: 5px;
+    padding: 5px 25px;
     text-align: center;
   }
   .col-md-3-thumb{
